@@ -17,7 +17,10 @@
 		DF10EA8D175DFF5D004BAE2D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF10EA8C175DFF5D004BAE2D /* Default@2x.png */; };
 		DF10EA8F175DFF5D004BAE2D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF10EA8E175DFF5D004BAE2D /* Default-568h@2x.png */; };
 		DF10EA92175DFF5D004BAE2D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF10EA90175DFF5D004BAE2D /* MainStoryboard.storyboard */; };
-		DF10EA95175DFF5D004BAE2D /* TDTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF10EA94175DFF5D004BAE2D /* TDTViewController.m */; };
+		DF10EA9D175E068E004BAE2D /* TDTMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF10EA9C175E068E004BAE2D /* TDTMainMenuViewController.m */; };
+		DF10EAA1175E0823004BAE2D /* MessageFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF10EAA0175E0823004BAE2D /* MessageFile.plist */; };
+		DF10EAA4175E1224004BAE2D /* TDTSkippedFrameCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */; };
+		DF10EAA6175E13E3004BAE2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +38,13 @@
 		DF10EA8C175DFF5D004BAE2D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DF10EA8E175DFF5D004BAE2D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DF10EA91175DFF5D004BAE2D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DF10EA93175DFF5D004BAE2D /* TDTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDTViewController.h; sourceTree = "<group>"; };
-		DF10EA94175DFF5D004BAE2D /* TDTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTViewController.m; sourceTree = "<group>"; };
+		DF10EA9B175E068E004BAE2D /* TDTMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTMainMenuViewController.h; sourceTree = "<group>"; };
+		DF10EA9C175E068E004BAE2D /* TDTMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTMainMenuViewController.m; sourceTree = "<group>"; };
+		DF10EA9F175E0793004BAE2D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		DF10EAA0175E0823004BAE2D /* MessageFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MessageFile.plist; path = ../MessageFile.plist; sourceTree = "<group>"; };
+		DF10EAA2175E1223004BAE2D /* TDTSkippedFrameCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTSkippedFrameCounter.h; sourceTree = "<group>"; };
+		DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTSkippedFrameCounter.m; sourceTree = "<group>"; };
+		DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF10EAA6175E13E3004BAE2D /* QuartzCore.framework in Frameworks */,
 				DF10EA79175DFF5D004BAE2D /* UIKit.framework in Frameworks */,
 				DF10EA7B175DFF5D004BAE2D /* Foundation.framework in Frameworks */,
 				DF10EA7D175DFF5D004BAE2D /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +65,7 @@
 		DF10EA6C175DFF5D004BAE2D = {
 			isa = PBXGroup;
 			children = (
+				DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */,
 				DF10EA7E175DFF5D004BAE2D /* ChatMessageExperiments */,
 				DF10EA77175DFF5D004BAE2D /* Frameworks */,
 				DF10EA76175DFF5D004BAE2D /* Products */,
@@ -86,8 +96,7 @@
 				DF10EA87175DFF5D004BAE2D /* TDTAppDelegate.h */,
 				DF10EA88175DFF5D004BAE2D /* TDTAppDelegate.m */,
 				DF10EA90175DFF5D004BAE2D /* MainStoryboard.storyboard */,
-				DF10EA93175DFF5D004BAE2D /* TDTViewController.h */,
-				DF10EA94175DFF5D004BAE2D /* TDTViewController.m */,
+				DF10EA9E175E069A004BAE2D /* Source */,
 				DF10EA7F175DFF5D004BAE2D /* Supporting Files */,
 			);
 			path = ChatMessageExperiments;
@@ -96,6 +105,7 @@
 		DF10EA7F175DFF5D004BAE2D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF10EAA0175E0823004BAE2D /* MessageFile.plist */,
 				DF10EA80175DFF5D004BAE2D /* ChatMessageExperiments-Info.plist */,
 				DF10EA81175DFF5D004BAE2D /* InfoPlist.strings */,
 				DF10EA84175DFF5D004BAE2D /* main.m */,
@@ -105,6 +115,18 @@
 				DF10EA8E175DFF5D004BAE2D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF10EA9E175E069A004BAE2D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DF10EA9F175E0793004BAE2D /* Constants.h */,
+				DF10EAA2175E1223004BAE2D /* TDTSkippedFrameCounter.h */,
+				DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */,
+				DF10EA9B175E068E004BAE2D /* TDTMainMenuViewController.h */,
+				DF10EA9C175E068E004BAE2D /* TDTMainMenuViewController.m */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +186,7 @@
 				DF10EA8D175DFF5D004BAE2D /* Default@2x.png in Resources */,
 				DF10EA8F175DFF5D004BAE2D /* Default-568h@2x.png in Resources */,
 				DF10EA92175DFF5D004BAE2D /* MainStoryboard.storyboard in Resources */,
+				DF10EAA1175E0823004BAE2D /* MessageFile.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +199,8 @@
 			files = (
 				DF10EA85175DFF5D004BAE2D /* main.m in Sources */,
 				DF10EA89175DFF5D004BAE2D /* TDTAppDelegate.m in Sources */,
-				DF10EA95175DFF5D004BAE2D /* TDTViewController.m in Sources */,
+				DF10EA9D175E068E004BAE2D /* TDTMainMenuViewController.m in Sources */,
+				DF10EAA4175E1224004BAE2D /* TDTSkippedFrameCounter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +288,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatMessageExperiments/ChatMessageExperiments-Prefix.pch";
 				INFOPLIST_FILE = "ChatMessageExperiments/ChatMessageExperiments-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +300,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatMessageExperiments/ChatMessageExperiments-Prefix.pch";
 				INFOPLIST_FILE = "ChatMessageExperiments/ChatMessageExperiments-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
