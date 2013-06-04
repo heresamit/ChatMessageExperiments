@@ -36,7 +36,7 @@
     if(_displayTime > .017)
     {
         _missed++;
-        [_delegate updateNavBar:_missed];
+        [_delegate updateSkippedFrames:_missed];
     }
     _previousTimestamp = displayink.timestamp;
     

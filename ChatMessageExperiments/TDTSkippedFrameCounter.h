@@ -9,15 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 
-@protocol skippedFrameCounterProtocol
+@protocol TDTskippedFrameCounterProtocol
 -(void) updateSkippedFrames:(int)toDisplay;
 @end
 
 @interface TDTSkippedFrameCounter : NSObject
 
-@property (nonatomic, weak) id <skippedFrameCounterProtocol> delegate;
+@property (nonatomic, weak) id <TDTskippedFrameCounterProtocol> delegate;
 
 - (id)initWithDelegate:(id)sender;
 - (void) targetMethod:(CADisplayLink *)displayink;
 
 @end
+ 
