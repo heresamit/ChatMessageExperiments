@@ -7,22 +7,13 @@
 //
 
 #import "TDTMainMenuViewController.h"
+#import "TDTBubbleImplementationsMenuViewController.h"
 
 @interface TDTMainMenuViewController ()
 @property (nonatomic,strong) NSMutableArray *messageArray;
 @end
 
 @implementation TDTMainMenuViewController
-
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 
 -(id) initWithCoder:(NSCoder *)aDecoder
 {
@@ -56,9 +47,10 @@
 {
     if([[segue identifier] isEqualToString:@"ChatBubblesImplementationSegue"])
     {
-//        EXPLayerMethodTableViewController *tvc = (EXPLayerMethodTableViewController *)[segue destinationViewController];
-//        tvc.tempArray = self.tempArray;
-//        [tvc parseData];
+        TDTBubbleImplementationsMenuViewController *dvc = (TDTBubbleImplementationsMenuViewController *)[segue destinationViewController];
+        dvc.messageArray = self.messageArray;
+        [dvc parseData];
+       //parse Some data there?
     }
 }
 @end

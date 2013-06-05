@@ -21,6 +21,16 @@
 		DF10EAA1175E0823004BAE2D /* MessageFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF10EAA0175E0823004BAE2D /* MessageFile.plist */; };
 		DF10EAA4175E1224004BAE2D /* TDTSkippedFrameCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */; };
 		DF10EAA6175E13E3004BAE2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */; };
+		DF6D94D5175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94D4175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.m */; };
+		DF6D94D8175EF5F300AA04A6 /* TDTBubbleImplementationsMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94D7175EF5F300AA04A6 /* TDTBubbleImplementationsMenuViewController.m */; };
+		DF6D94DB175EFA2C00AA04A6 /* TDTBubbleData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94DA175EFA2C00AA04A6 /* TDTBubbleData.m */; };
+		DF6D94DE175EFF8000AA04A6 /* TDTDrawnBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94DD175EFF8000AA04A6 /* TDTDrawnBubbleView.m */; };
+		DF6D94E1175F105000AA04A6 /* TDTLayerBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94E0175F105000AA04A6 /* TDTLayerBubbleView.m */; };
+		DF6D94E4175F12A000AA04A6 /* TDTLayerBubblesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94E3175F12A000AA04A6 /* TDTLayerBubblesVC.m */; };
+		DF6D94E7175F162800AA04A6 /* chat-bubble-incoming@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6D94E5175F162800AA04A6 /* chat-bubble-incoming@2x.png */; };
+		DF6D94E8175F162800AA04A6 /* chat-bubble-outgoing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6D94E6175F162800AA04A6 /* chat-bubble-outgoing@2x.png */; };
+		DF6D94EB175F177900AA04A6 /* TDTImageBubblesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94EA175F177900AA04A6 /* TDTImageBubblesVC.m */; };
+		DF6D94EE175F187600AA04A6 /* TDTImageBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94ED175F187600AA04A6 /* TDTImageBubbleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +55,24 @@
 		DF10EAA2175E1223004BAE2D /* TDTSkippedFrameCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTSkippedFrameCounter.h; sourceTree = "<group>"; };
 		DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTSkippedFrameCounter.m; sourceTree = "<group>"; };
 		DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF6D94D3175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDrawRectBubblesVC.h; sourceTree = "<group>"; };
+		DF6D94D4175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDrawRectBubblesVC.m; sourceTree = "<group>"; };
+		DF6D94D6175EF5F200AA04A6 /* TDTBubbleImplementationsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTBubbleImplementationsMenuViewController.h; sourceTree = "<group>"; };
+		DF6D94D7175EF5F300AA04A6 /* TDTBubbleImplementationsMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTBubbleImplementationsMenuViewController.m; sourceTree = "<group>"; };
+		DF6D94D9175EFA2C00AA04A6 /* TDTBubbleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTBubbleData.h; sourceTree = "<group>"; };
+		DF6D94DA175EFA2C00AA04A6 /* TDTBubbleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTBubbleData.m; sourceTree = "<group>"; };
+		DF6D94DC175EFF8000AA04A6 /* TDTDrawnBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDrawnBubbleView.h; sourceTree = "<group>"; };
+		DF6D94DD175EFF8000AA04A6 /* TDTDrawnBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDrawnBubbleView.m; sourceTree = "<group>"; };
+		DF6D94DF175F105000AA04A6 /* TDTLayerBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTLayerBubbleView.h; sourceTree = "<group>"; };
+		DF6D94E0175F105000AA04A6 /* TDTLayerBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTLayerBubbleView.m; sourceTree = "<group>"; };
+		DF6D94E2175F12A000AA04A6 /* TDTLayerBubblesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTLayerBubblesVC.h; sourceTree = "<group>"; };
+		DF6D94E3175F12A000AA04A6 /* TDTLayerBubblesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTLayerBubblesVC.m; sourceTree = "<group>"; };
+		DF6D94E5175F162800AA04A6 /* chat-bubble-incoming@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-bubble-incoming@2x.png"; sourceTree = "<group>"; };
+		DF6D94E6175F162800AA04A6 /* chat-bubble-outgoing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-bubble-outgoing@2x.png"; sourceTree = "<group>"; };
+		DF6D94E9175F177800AA04A6 /* TDTImageBubblesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTImageBubblesVC.h; sourceTree = "<group>"; };
+		DF6D94EA175F177900AA04A6 /* TDTImageBubblesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTImageBubblesVC.m; sourceTree = "<group>"; };
+		DF6D94EC175F187500AA04A6 /* TDTImageBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTImageBubbleView.h; sourceTree = "<group>"; };
+		DF6D94ED175F187600AA04A6 /* TDTImageBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTImageBubbleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +141,8 @@
 				DF10EA8A175DFF5D004BAE2D /* Default.png */,
 				DF10EA8C175DFF5D004BAE2D /* Default@2x.png */,
 				DF10EA8E175DFF5D004BAE2D /* Default-568h@2x.png */,
+				DF6D94E5175F162800AA04A6 /* chat-bubble-incoming@2x.png */,
+				DF6D94E6175F162800AA04A6 /* chat-bubble-outgoing@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,6 +155,22 @@
 				DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */,
 				DF10EA9B175E068E004BAE2D /* TDTMainMenuViewController.h */,
 				DF10EA9C175E068E004BAE2D /* TDTMainMenuViewController.m */,
+				DF6D94D6175EF5F200AA04A6 /* TDTBubbleImplementationsMenuViewController.h */,
+				DF6D94D7175EF5F300AA04A6 /* TDTBubbleImplementationsMenuViewController.m */,
+				DF6D94D3175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.h */,
+				DF6D94D4175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.m */,
+				DF6D94E2175F12A000AA04A6 /* TDTLayerBubblesVC.h */,
+				DF6D94E3175F12A000AA04A6 /* TDTLayerBubblesVC.m */,
+				DF6D94E9175F177800AA04A6 /* TDTImageBubblesVC.h */,
+				DF6D94EA175F177900AA04A6 /* TDTImageBubblesVC.m */,
+				DF6D94D9175EFA2C00AA04A6 /* TDTBubbleData.h */,
+				DF6D94DA175EFA2C00AA04A6 /* TDTBubbleData.m */,
+				DF6D94DC175EFF8000AA04A6 /* TDTDrawnBubbleView.h */,
+				DF6D94DD175EFF8000AA04A6 /* TDTDrawnBubbleView.m */,
+				DF6D94DF175F105000AA04A6 /* TDTLayerBubbleView.h */,
+				DF6D94E0175F105000AA04A6 /* TDTLayerBubbleView.m */,
+				DF6D94EC175F187500AA04A6 /* TDTImageBubbleView.h */,
+				DF6D94ED175F187600AA04A6 /* TDTImageBubbleView.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -187,6 +233,8 @@
 				DF10EA8F175DFF5D004BAE2D /* Default-568h@2x.png in Resources */,
 				DF10EA92175DFF5D004BAE2D /* MainStoryboard.storyboard in Resources */,
 				DF10EAA1175E0823004BAE2D /* MessageFile.plist in Resources */,
+				DF6D94E7175F162800AA04A6 /* chat-bubble-incoming@2x.png in Resources */,
+				DF6D94E8175F162800AA04A6 /* chat-bubble-outgoing@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +249,14 @@
 				DF10EA89175DFF5D004BAE2D /* TDTAppDelegate.m in Sources */,
 				DF10EA9D175E068E004BAE2D /* TDTMainMenuViewController.m in Sources */,
 				DF10EAA4175E1224004BAE2D /* TDTSkippedFrameCounter.m in Sources */,
+				DF6D94D5175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.m in Sources */,
+				DF6D94D8175EF5F300AA04A6 /* TDTBubbleImplementationsMenuViewController.m in Sources */,
+				DF6D94DB175EFA2C00AA04A6 /* TDTBubbleData.m in Sources */,
+				DF6D94DE175EFF8000AA04A6 /* TDTDrawnBubbleView.m in Sources */,
+				DF6D94E1175F105000AA04A6 /* TDTLayerBubbleView.m in Sources */,
+				DF6D94E4175F12A000AA04A6 /* TDTLayerBubblesVC.m in Sources */,
+				DF6D94EB175F177900AA04A6 /* TDTImageBubblesVC.m in Sources */,
+				DF6D94EE175F187600AA04A6 /* TDTImageBubbleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +381,7 @@
 				DF10EA9A175DFF5D004BAE2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
