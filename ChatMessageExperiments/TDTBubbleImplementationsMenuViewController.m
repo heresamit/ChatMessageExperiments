@@ -18,16 +18,6 @@
 
 @implementation TDTBubbleImplementationsMenuViewController
 
-//-(id) initWithCoder:(NSCoder *)aDecoder
-//{
-//    self = [super initWithCoder:aDecoder];
-//    if (self)
-//    {
-//
-//    }
-//    return self;
-//}
-
 -(void) parseData
 {
     _dataArray = [[NSMutableArray alloc] initWithCapacity:self.messageArray.count];
@@ -48,26 +38,13 @@
     {
         TDTLayerBubblesVC *dvc = (TDTLayerBubblesVC *)[segue destinationViewController];
         dvc.dataArray = self.dataArray;
-        //dvc.messageArray = self.messageArray;
-        //parse Some data there?
     }
     else if([[segue identifier] isEqualToString:@"imageMethodSegue"])
     {
         TDTImageBubblesVC *dvc = (TDTImageBubblesVC *)[segue destinationViewController];
         dvc.dataArray = self.dataArray;
-        //dvc.messageArray = self.messageArray;
-        //parse Some data there?
     }
-    //layerMethodSegue
+    
 }
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
 
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
 @end

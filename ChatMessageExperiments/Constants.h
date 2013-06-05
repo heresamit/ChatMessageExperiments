@@ -21,3 +21,8 @@ typedef enum
 #define triangleHeight 9.5f
 #define triangleWidth 9.5f
 #define YTEXTBUFFER 5.0f
+
+#define AVATARPICHEIGHT 30.0f
+#define AVATARPICWIDTH 30.0f
+#define AVATARXBUFFER 8.0f
+#define XTEXTBUFFER 15.0f

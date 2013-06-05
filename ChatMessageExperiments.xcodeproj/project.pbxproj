@@ -31,6 +31,21 @@
 		DF6D94E8175F162800AA04A6 /* chat-bubble-outgoing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6D94E6175F162800AA04A6 /* chat-bubble-outgoing@2x.png */; };
 		DF6D94EB175F177900AA04A6 /* TDTImageBubblesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94EA175F177900AA04A6 /* TDTImageBubblesVC.m */; };
 		DF6D94EE175F187600AA04A6 /* TDTImageBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94ED175F187600AA04A6 /* TDTImageBubbleView.m */; };
+		DF6D94F3175F524D00AA04A6 /* TDTChatBubbleAndAvatarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94F2175F524D00AA04A6 /* TDTChatBubbleAndAvatarVC.m */; };
+		DF6D94F6175F535600AA04A6 /* TDTLayerBubblesAndAvatarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94F5175F535500AA04A6 /* TDTLayerBubblesAndAvatarVC.m */; };
+		DF6D94F9175F550300AA04A6 /* TDTLayerBubbleAndAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94F8175F550200AA04A6 /* TDTLayerBubbleAndAvatarView.m */; };
+		DF6D94FC175F56FC00AA04A6 /* avatarPlaceHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6D94FA175F56FC00AA04A6 /* avatarPlaceHolder.png */; };
+		DF6D94FD175F56FC00AA04A6 /* avatarPlaceHolder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6D94FB175F56FC00AA04A6 /* avatarPlaceHolder@2x.png */; };
+		DF6D9500175F5B7800AA04A6 /* TDTImageBubblesAndAvatarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94FF175F5B7800AA04A6 /* TDTImageBubblesAndAvatarVC.m */; };
+		DF6D9503175F5B9D00AA04A6 /* TDTImageBubbleAndAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D9502175F5B9D00AA04A6 /* TDTImageBubbleAndAvatarView.m */; };
+		DF6D9506175F606F00AA04A6 /* avatarPlaceHolderMe.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6D9504175F606F00AA04A6 /* avatarPlaceHolderMe.png */; };
+		DF6D9507175F606F00AA04A6 /* avatarPlaceHolderMe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6D9505175F606F00AA04A6 /* avatarPlaceHolderMe@2x.png */; };
+		DF6D950B175F62B500AA04A6 /* TDTBubbleWithAvatarAndTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D950A175F62B500AA04A6 /* TDTBubbleWithAvatarAndTextVC.m */; };
+		DF6D950E175F62D500AA04A6 /* TDTLayerBubblesAvatarsAndTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D950D175F62D500AA04A6 /* TDTLayerBubblesAvatarsAndTextVC.m */; };
+		DF6D9511175F62ED00AA04A6 /* TDTImageBubblesAvatarsAndTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D9510175F62ED00AA04A6 /* TDTImageBubblesAvatarsAndTextVC.m */; };
+		DF6D9514175F631400AA04A6 /* TDTLayerBubbleAvatarAndTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D9513175F631400AA04A6 /* TDTLayerBubbleAvatarAndTextView.m */; };
+		DF6D9517175F632500AA04A6 /* TDTImageBubbleAvatarAndTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D9516175F632500AA04A6 /* TDTImageBubbleAvatarAndTextView.m */; };
+		DF6D951A175F641600AA04A6 /* TDTBubbleDataWithText.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D9519175F641400AA04A6 /* TDTBubbleDataWithText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +88,32 @@
 		DF6D94EA175F177900AA04A6 /* TDTImageBubblesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTImageBubblesVC.m; sourceTree = "<group>"; };
 		DF6D94EC175F187500AA04A6 /* TDTImageBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTImageBubbleView.h; sourceTree = "<group>"; };
 		DF6D94ED175F187600AA04A6 /* TDTImageBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTImageBubbleView.m; sourceTree = "<group>"; };
+		DF6D94F1175F524D00AA04A6 /* TDTChatBubbleAndAvatarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTChatBubbleAndAvatarVC.h; sourceTree = "<group>"; };
+		DF6D94F2175F524D00AA04A6 /* TDTChatBubbleAndAvatarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTChatBubbleAndAvatarVC.m; sourceTree = "<group>"; };
+		DF6D94F4175F535500AA04A6 /* TDTLayerBubblesAndAvatarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTLayerBubblesAndAvatarVC.h; sourceTree = "<group>"; };
+		DF6D94F5175F535500AA04A6 /* TDTLayerBubblesAndAvatarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTLayerBubblesAndAvatarVC.m; sourceTree = "<group>"; };
+		DF6D94F7175F550200AA04A6 /* TDTLayerBubbleAndAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTLayerBubbleAndAvatarView.h; sourceTree = "<group>"; };
+		DF6D94F8175F550200AA04A6 /* TDTLayerBubbleAndAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTLayerBubbleAndAvatarView.m; sourceTree = "<group>"; };
+		DF6D94FA175F56FC00AA04A6 /* avatarPlaceHolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatarPlaceHolder.png; sourceTree = "<group>"; };
+		DF6D94FB175F56FC00AA04A6 /* avatarPlaceHolder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatarPlaceHolder@2x.png"; sourceTree = "<group>"; };
+		DF6D94FE175F5B7800AA04A6 /* TDTImageBubblesAndAvatarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTImageBubblesAndAvatarVC.h; sourceTree = "<group>"; };
+		DF6D94FF175F5B7800AA04A6 /* TDTImageBubblesAndAvatarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTImageBubblesAndAvatarVC.m; sourceTree = "<group>"; };
+		DF6D9501175F5B9C00AA04A6 /* TDTImageBubbleAndAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTImageBubbleAndAvatarView.h; sourceTree = "<group>"; };
+		DF6D9502175F5B9D00AA04A6 /* TDTImageBubbleAndAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTImageBubbleAndAvatarView.m; sourceTree = "<group>"; };
+		DF6D9504175F606F00AA04A6 /* avatarPlaceHolderMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatarPlaceHolderMe.png; sourceTree = "<group>"; };
+		DF6D9505175F606F00AA04A6 /* avatarPlaceHolderMe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatarPlaceHolderMe@2x.png"; sourceTree = "<group>"; };
+		DF6D9509175F62B500AA04A6 /* TDTBubbleWithAvatarAndTextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTBubbleWithAvatarAndTextVC.h; sourceTree = "<group>"; };
+		DF6D950A175F62B500AA04A6 /* TDTBubbleWithAvatarAndTextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTBubbleWithAvatarAndTextVC.m; sourceTree = "<group>"; };
+		DF6D950C175F62D500AA04A6 /* TDTLayerBubblesAvatarsAndTextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTLayerBubblesAvatarsAndTextVC.h; sourceTree = "<group>"; };
+		DF6D950D175F62D500AA04A6 /* TDTLayerBubblesAvatarsAndTextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTLayerBubblesAvatarsAndTextVC.m; sourceTree = "<group>"; };
+		DF6D950F175F62ED00AA04A6 /* TDTImageBubblesAvatarsAndTextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTImageBubblesAvatarsAndTextVC.h; sourceTree = "<group>"; };
+		DF6D9510175F62ED00AA04A6 /* TDTImageBubblesAvatarsAndTextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTImageBubblesAvatarsAndTextVC.m; sourceTree = "<group>"; };
+		DF6D9512175F631400AA04A6 /* TDTLayerBubbleAvatarAndTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTLayerBubbleAvatarAndTextView.h; sourceTree = "<group>"; };
+		DF6D9513175F631400AA04A6 /* TDTLayerBubbleAvatarAndTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTLayerBubbleAvatarAndTextView.m; sourceTree = "<group>"; };
+		DF6D9515175F632400AA04A6 /* TDTImageBubbleAvatarAndTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTImageBubbleAvatarAndTextView.h; sourceTree = "<group>"; };
+		DF6D9516175F632500AA04A6 /* TDTImageBubbleAvatarAndTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTImageBubbleAvatarAndTextView.m; sourceTree = "<group>"; };
+		DF6D9518175F641200AA04A6 /* TDTBubbleDataWithText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTBubbleDataWithText.h; sourceTree = "<group>"; };
+		DF6D9519175F641400AA04A6 /* TDTBubbleDataWithText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTBubbleDataWithText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +179,10 @@
 				DF10EA81175DFF5D004BAE2D /* InfoPlist.strings */,
 				DF10EA84175DFF5D004BAE2D /* main.m */,
 				DF10EA86175DFF5D004BAE2D /* ChatMessageExperiments-Prefix.pch */,
+				DF6D94FA175F56FC00AA04A6 /* avatarPlaceHolder.png */,
+				DF6D94FB175F56FC00AA04A6 /* avatarPlaceHolder@2x.png */,
+				DF6D9504175F606F00AA04A6 /* avatarPlaceHolderMe.png */,
+				DF6D9505175F606F00AA04A6 /* avatarPlaceHolderMe@2x.png */,
 				DF10EA8A175DFF5D004BAE2D /* Default.png */,
 				DF10EA8C175DFF5D004BAE2D /* Default@2x.png */,
 				DF10EA8E175DFF5D004BAE2D /* Default-568h@2x.png */,
@@ -155,6 +200,20 @@
 				DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */,
 				DF10EA9B175E068E004BAE2D /* TDTMainMenuViewController.h */,
 				DF10EA9C175E068E004BAE2D /* TDTMainMenuViewController.m */,
+				DF6D94D9175EFA2C00AA04A6 /* TDTBubbleData.h */,
+				DF6D94DA175EFA2C00AA04A6 /* TDTBubbleData.m */,
+				DF6D9518175F641200AA04A6 /* TDTBubbleDataWithText.h */,
+				DF6D9519175F641400AA04A6 /* TDTBubbleDataWithText.m */,
+				DF6D94EF175F51D300AA04A6 /* Chat Bubble implementations */,
+				DF6D94F0175F51F900AA04A6 /* Chat Bubble and Avatars */,
+				DF6D9508175F626700AA04A6 /* Chat Bubble with Avatars and Text */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DF6D94EF175F51D300AA04A6 /* Chat Bubble implementations */ = {
+			isa = PBXGroup;
+			children = (
 				DF6D94D6175EF5F200AA04A6 /* TDTBubbleImplementationsMenuViewController.h */,
 				DF6D94D7175EF5F300AA04A6 /* TDTBubbleImplementationsMenuViewController.m */,
 				DF6D94D3175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.h */,
@@ -163,8 +222,6 @@
 				DF6D94E3175F12A000AA04A6 /* TDTLayerBubblesVC.m */,
 				DF6D94E9175F177800AA04A6 /* TDTImageBubblesVC.h */,
 				DF6D94EA175F177900AA04A6 /* TDTImageBubblesVC.m */,
-				DF6D94D9175EFA2C00AA04A6 /* TDTBubbleData.h */,
-				DF6D94DA175EFA2C00AA04A6 /* TDTBubbleData.m */,
 				DF6D94DC175EFF8000AA04A6 /* TDTDrawnBubbleView.h */,
 				DF6D94DD175EFF8000AA04A6 /* TDTDrawnBubbleView.m */,
 				DF6D94DF175F105000AA04A6 /* TDTLayerBubbleView.h */,
@@ -172,7 +229,41 @@
 				DF6D94EC175F187500AA04A6 /* TDTImageBubbleView.h */,
 				DF6D94ED175F187600AA04A6 /* TDTImageBubbleView.m */,
 			);
-			name = Source;
+			name = "Chat Bubble implementations";
+			sourceTree = "<group>";
+		};
+		DF6D94F0175F51F900AA04A6 /* Chat Bubble and Avatars */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D94F1175F524D00AA04A6 /* TDTChatBubbleAndAvatarVC.h */,
+				DF6D94F2175F524D00AA04A6 /* TDTChatBubbleAndAvatarVC.m */,
+				DF6D94F4175F535500AA04A6 /* TDTLayerBubblesAndAvatarVC.h */,
+				DF6D94F5175F535500AA04A6 /* TDTLayerBubblesAndAvatarVC.m */,
+				DF6D94FE175F5B7800AA04A6 /* TDTImageBubblesAndAvatarVC.h */,
+				DF6D94FF175F5B7800AA04A6 /* TDTImageBubblesAndAvatarVC.m */,
+				DF6D94F7175F550200AA04A6 /* TDTLayerBubbleAndAvatarView.h */,
+				DF6D94F8175F550200AA04A6 /* TDTLayerBubbleAndAvatarView.m */,
+				DF6D9501175F5B9C00AA04A6 /* TDTImageBubbleAndAvatarView.h */,
+				DF6D9502175F5B9D00AA04A6 /* TDTImageBubbleAndAvatarView.m */,
+			);
+			name = "Chat Bubble and Avatars";
+			sourceTree = "<group>";
+		};
+		DF6D9508175F626700AA04A6 /* Chat Bubble with Avatars and Text */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D9509175F62B500AA04A6 /* TDTBubbleWithAvatarAndTextVC.h */,
+				DF6D950A175F62B500AA04A6 /* TDTBubbleWithAvatarAndTextVC.m */,
+				DF6D950C175F62D500AA04A6 /* TDTLayerBubblesAvatarsAndTextVC.h */,
+				DF6D950D175F62D500AA04A6 /* TDTLayerBubblesAvatarsAndTextVC.m */,
+				DF6D950F175F62ED00AA04A6 /* TDTImageBubblesAvatarsAndTextVC.h */,
+				DF6D9510175F62ED00AA04A6 /* TDTImageBubblesAvatarsAndTextVC.m */,
+				DF6D9512175F631400AA04A6 /* TDTLayerBubbleAvatarAndTextView.h */,
+				DF6D9513175F631400AA04A6 /* TDTLayerBubbleAvatarAndTextView.m */,
+				DF6D9515175F632400AA04A6 /* TDTImageBubbleAvatarAndTextView.h */,
+				DF6D9516175F632500AA04A6 /* TDTImageBubbleAvatarAndTextView.m */,
+			);
+			name = "Chat Bubble with Avatars and Text";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +326,10 @@
 				DF10EAA1175E0823004BAE2D /* MessageFile.plist in Resources */,
 				DF6D94E7175F162800AA04A6 /* chat-bubble-incoming@2x.png in Resources */,
 				DF6D94E8175F162800AA04A6 /* chat-bubble-outgoing@2x.png in Resources */,
+				DF6D94FC175F56FC00AA04A6 /* avatarPlaceHolder.png in Resources */,
+				DF6D94FD175F56FC00AA04A6 /* avatarPlaceHolder@2x.png in Resources */,
+				DF6D9506175F606F00AA04A6 /* avatarPlaceHolderMe.png in Resources */,
+				DF6D9507175F606F00AA04A6 /* avatarPlaceHolderMe@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +352,17 @@
 				DF6D94E4175F12A000AA04A6 /* TDTLayerBubblesVC.m in Sources */,
 				DF6D94EB175F177900AA04A6 /* TDTImageBubblesVC.m in Sources */,
 				DF6D94EE175F187600AA04A6 /* TDTImageBubbleView.m in Sources */,
+				DF6D94F3175F524D00AA04A6 /* TDTChatBubbleAndAvatarVC.m in Sources */,
+				DF6D94F6175F535600AA04A6 /* TDTLayerBubblesAndAvatarVC.m in Sources */,
+				DF6D94F9175F550300AA04A6 /* TDTLayerBubbleAndAvatarView.m in Sources */,
+				DF6D9500175F5B7800AA04A6 /* TDTImageBubblesAndAvatarVC.m in Sources */,
+				DF6D9503175F5B9D00AA04A6 /* TDTImageBubbleAndAvatarView.m in Sources */,
+				DF6D950B175F62B500AA04A6 /* TDTBubbleWithAvatarAndTextVC.m in Sources */,
+				DF6D950E175F62D500AA04A6 /* TDTLayerBubblesAvatarsAndTextVC.m in Sources */,
+				DF6D9511175F62ED00AA04A6 /* TDTImageBubblesAvatarsAndTextVC.m in Sources */,
+				DF6D9514175F631400AA04A6 /* TDTLayerBubbleAvatarAndTextView.m in Sources */,
+				DF6D9517175F632500AA04A6 /* TDTImageBubbleAvatarAndTextView.m in Sources */,
+				DF6D951A175F641600AA04A6 /* TDTBubbleDataWithText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "TDTMainMenuViewController.h"
 #import "TDTBubbleImplementationsMenuViewController.h"
+#import "TDTChatBubbleAndAvatarVC.h"
 
 @interface TDTMainMenuViewController ()
 @property (nonatomic,strong) NSMutableArray *messageArray;
@@ -52,5 +53,20 @@
         [dvc parseData];
        //parse Some data there?
     }
+    else if([[segue identifier] isEqualToString:@"ChatBubblesWithAvatarImplementationSegue"])
+    {
+        TDTChatBubbleAndAvatarVC *dvc = (TDTChatBubbleAndAvatarVC *)[segue destinationViewController];
+        dvc.messageArray = self.messageArray;
+        [dvc parseData];
+        //parse Some data there?
+    }
+    else if([[segue identifier] isEqualToString:@"ChatBubblesWithAvatarAndTextImplementationSegue"])
+    {
+        TDTChatBubbleAndAvatarVC *dvc = (TDTChatBubbleAndAvatarVC *)[segue destinationViewController];
+        dvc.messageArray = self.messageArray;
+        [dvc parseData];
+        //parse Some data there?
+    }
+
 }
 @end
