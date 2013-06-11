@@ -43,17 +43,15 @@
         {
             bubbleImageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.frame.size.width - AVATARPICWIDTH - AVATARXBUFFER - _size.width - 3.0f*XTEXTBUFFER/2.0f, YCELLBUFFER/2.0f, self.size.width + 3.0f*XTEXTBUFFER/2.0f, self.size.height + YTEXTBUFFER)];
             bubbleImageView.image = [self.bubbleImage stretchableImageWithLeftCapWidth:11 topCapHeight:17];
-            
             avatarImageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.frame.size.width - AVATARXBUFFER/2.0f - AVATARPICWIDTH, YCELLBUFFER/2.0f, AVATARPICWIDTH,AVATARPICHEIGHT)];
             avatarImageView.image = self.avatarImage;
-            
             break;
         }
         case received:
         {
             bubbleImageView = [[UIImageView alloc] initWithFrame:CGRectMake(AVATARPICWIDTH + AVATARXBUFFER, YCELLBUFFER/2.0f, self.size.width + 3.0f * XTEXTBUFFER/2.0f, self.size.height + YTEXTBUFFER)];
             bubbleImageView.image = [self.bubbleImage stretchableImageWithLeftCapWidth:15 topCapHeight:17];
-            
+           
             avatarImageView = [[UIImageView alloc] initWithFrame:CGRectMake(AVATARXBUFFER/2 , YCELLBUFFER/2, AVATARPICWIDTH,AVATARPICHEIGHT)];
             avatarImageView.image = self.avatarImage;
             
@@ -62,6 +60,8 @@
         default:
             break;
     }
+    bubbleImageView.opaque= YES;
+    avatarImageView.opaque = YES;
     [self addSubview:bubbleImageView];
     [self addSubview:avatarImageView];
     

@@ -52,12 +52,16 @@
                                                       , (_bubbleImage.size.height - 28.0f)
                                                       /_bubbleImage.size.height
                                                       );
+            gradientLayer.opaque = YES;
             
             [self.layer addSublayer:gradientLayer];
             
             CALayer* imageLayer = [[CALayer alloc] init];
             imageLayer.frame = CGRectMake(self.frame.size.width - AVATARXBUFFER/2.0f - AVATARPICWIDTH, YCELLBUFFER/2.0f, AVATARPICWIDTH,AVATARPICHEIGHT);
             imageLayer.contents = (__bridge id)_avatarImage.CGImage;
+            
+            imageLayer.opaque = YES;
+            
             [self.layer addSublayer:imageLayer];
             
             UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(self.frame.size.width - AVATARPICWIDTH - AVATARXBUFFER - _size.width - XTEXTBUFFER, YCELLBUFFER/2.0f + YTEXTBUFFER/2.0f, _size.width,_size.height)];
@@ -86,11 +90,15 @@
                                                       , (_bubbleImage.size.height - 28.0f)
                                                       /_bubbleImage.size.height
                                                       );
+            gradientLayer.opaque = YES;
+            
             [self.layer addSublayer:gradientLayer];
             
             CALayer* imageLayer = [[CALayer alloc] init];
             imageLayer.frame = CGRectMake(AVATARXBUFFER/2 , YCELLBUFFER/2, AVATARPICWIDTH,AVATARPICHEIGHT);
             imageLayer.contents = (__bridge id)_avatarImage.CGImage;
+            imageLayer.opaque = YES;
+            
             [self.layer addSublayer:imageLayer];
             
             UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(XTEXTBUFFER + AVATARPICWIDTH + AVATARXBUFFER, YCELLBUFFER/2.0f + YTEXTBUFFER/2.0f, _size.width,_size.height)];

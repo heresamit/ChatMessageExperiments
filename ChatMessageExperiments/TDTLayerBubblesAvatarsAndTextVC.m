@@ -32,6 +32,7 @@
         _bubbleImageSent = [UIImage imageNamed:@"chat-bubble-outgoing.png"];
         _avatar1 = [UIImage imageNamed:@"avatarPlaceHolder.png"];
         _avatar2 = [UIImage imageNamed:@"avatarPlaceHolderMe.png"];
+        
     }
     return self;
 }

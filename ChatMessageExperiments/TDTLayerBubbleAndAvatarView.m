@@ -53,12 +53,15 @@
                                                       , (_bubbleImage.size.height - 28.0f)
                                                       /_bubbleImage.size.height
                                                       );
-            
+            //gradientLayer.shouldRasterize = YES;
+            gradientLayer.opaque = YES;
             [self.layer addSublayer:gradientLayer];
             
             CALayer* imageLayer = [[CALayer alloc] init];
             imageLayer.frame = CGRectMake(self.frame.size.width - AVATARXBUFFER/2.0f - AVATARPICWIDTH, YCELLBUFFER/2.0f, AVATARPICWIDTH,AVATARPICHEIGHT);
             imageLayer.contents = (__bridge id)_avatarImage.CGImage;
+            //imageLayer.shouldRasterize = YES;
+            //imageLayer.opaque= YES;
             [self.layer addSublayer:imageLayer];
             break;
             
@@ -78,11 +81,15 @@
                                                       , (_bubbleImage.size.height - 28.0f)
                                                       /_bubbleImage.size.height
                                                       );
+            gradientLayer.opaque = YES;
+            //gradientLayer.shouldRasterize = YES;
             [self.layer addSublayer:gradientLayer];
             
             CALayer* imageLayer = [[CALayer alloc] init];
             imageLayer.frame = CGRectMake(AVATARXBUFFER/2 , YCELLBUFFER/2, AVATARPICWIDTH,AVATARPICHEIGHT);
             imageLayer.contents = (__bridge id)_avatarImage.CGImage;
+            //imageLayer.opaque = YES;
+            //imageLayer.shouldRasterize  = YES;
             [self.layer addSublayer:imageLayer];
             
             break;

@@ -136,7 +136,7 @@
                          {
                              double temp = CFAbsoluteTimeGetCurrent() - _time;
                              UIAlertView *alert = [[UIAlertView alloc]
-                                                   initWithTitle: @"Results (CALayer Bubbles, Avatar & text)"
+                                                   initWithTitle: @"Results (Image Bubbles, Avatar & text)"
                                                    message: [NSString stringWithFormat:@"It took %.3f seconds to scroll %d messages (if Back wasn't pressed) and %@ frames were skipped.\nRow index was incremented by 10 after every 0.002 seconds in this run.",temp,j,self.navigationItem.title]//@""
                                                    delegate: nil
                                                    cancelButtonTitle:@"OK"

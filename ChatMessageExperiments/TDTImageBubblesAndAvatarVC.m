@@ -27,7 +27,7 @@
     self = [super initWithCoder:aDecoder];
     if (self)
     {
-        _sfc = [[TDTSkippedFrameCounter alloc] initWithDelegate:self];
+        //_sfc = [[TDTSkippedFrameCounter alloc] initWithDelegate:self];
         _bubbleImageReceived  = [UIImage imageNamed:@"chat-bubble-incoming.png"];
         _bubbleImageSent = [UIImage imageNamed:@"chat-bubble-outgoing.png"];
         _avatar1 = [UIImage imageNamed:@"avatarPlaceHolder.png"];
@@ -125,7 +125,7 @@
 -(void) scrollAutomatically:(int) i
 {
     __block int j = i;
-    [UIView animateWithDuration: .002
+    [UIView animateWithDuration: 0
                      animations: ^{
                          [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:j inSection:0] atScrollPosition:UITableViewScrollPositionBottom animated:NO];
                      }completion: ^(BOOL finished){
@@ -137,8 +137,10 @@
                          {
                              double temp = CFAbsoluteTimeGetCurrent() - _time;
                              UIAlertView *alert = [[UIAlertView alloc]
-                                                   initWithTitle: @"Results (CALayer Bubbles & Avatar)"
-                                                   message: [NSString stringWithFormat:@"It took %.3f seconds to scroll %d messages (if Back wasn't pressed) and %@ frames were skipped.\nRow index was incremented by 10 after every 0.002 seconds in this run.",temp,j,self.navigationItem.title]//@""
+                                                   initWithTitle: @"Results (Image Bubbles & Avatar)"
+                                                   message: [NSString stringWithFormat:@"It took %.3f seconds to scroll %d messages (if Back wasn't pressed) and  frames were skipped.\nRow index was incremented by 10 after every 0.002 seconds in this run.",temp,j
+                                                             //,self.navigationItem.title
+                                                             ]//@""
                                                    delegate: nil
                                                    cancelButtonTitle:@"OK"
                                                    otherButtonTitles:nil];

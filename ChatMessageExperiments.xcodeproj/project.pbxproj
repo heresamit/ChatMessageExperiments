@@ -46,6 +46,22 @@
 		DF6D9514175F631400AA04A6 /* TDTLayerBubbleAvatarAndTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D9513175F631400AA04A6 /* TDTLayerBubbleAvatarAndTextView.m */; };
 		DF6D9517175F632500AA04A6 /* TDTImageBubbleAvatarAndTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D9516175F632500AA04A6 /* TDTImageBubbleAvatarAndTextView.m */; };
 		DF6D951A175F641600AA04A6 /* TDTBubbleDataWithText.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D9519175F641400AA04A6 /* TDTBubbleDataWithText.m */; };
+		DF6D951D1760689D00AA04A6 /* TDTTextImplementationsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D951C1760689D00AA04A6 /* TDTTextImplementationsVC.m */; };
+		DF6D95211760697F00AA04A6 /* TDTDrawRectTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D95201760697F00AA04A6 /* TDTDrawRectTextVC.m */; };
+		DF6D95241760699800AA04A6 /* TDTUILabelTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D95231760699800AA04A6 /* TDTUILabelTextVC.m */; };
+		DF6D9527176069AC00AA04A6 /* TDTCALayerTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D9526176069AB00AA04A6 /* TDTCALayerTextVC.m */; };
+		DFAC642F17659346004CD02F /* TDTRoughWorkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC642E17659346004CD02F /* TDTRoughWorkVC.m */; };
+		DFAC643217659539004CD02F /* happyEmoticon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC643017659539004CD02F /* happyEmoticon.png */; };
+		DFAC643317659539004CD02F /* happyEmoticon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC643117659539004CD02F /* happyEmoticon@2x.png */; };
+		DFAC64351765962D004CD02F /* testImg.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC64341765962D004CD02F /* testImg.png */; };
+		DFAC6438176598EE004CD02F /* TDTCustomEmoticonsMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC6437176598EE004CD02F /* TDTCustomEmoticonsMenuVC.m */; };
+		DFAC643C17659983004CD02F /* TDTWebViewMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC643B17659983004CD02F /* TDTWebViewMethodVC.m */; };
+		DFAC643E1765ACD6004CD02F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC643D1765ACD6004CD02F /* CoreText.framework */; };
+		DFAC64411765ACF8004CD02F /* TDTCTView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC64401765ACF7004CD02F /* TDTCTView.m */; };
+		DFAC64441765D067004CD02F /* sadEmoticon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC64421765D067004CD02F /* sadEmoticon.png */; };
+		DFAC64451765D067004CD02F /* sadEmoticon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC64431765D067004CD02F /* sadEmoticon@2x.png */; };
+		DFAC64481765D38D004CD02F /* TDTWebViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC64471765D38D004CD02F /* TDTWebViewData.m */; };
+		DFAC644A1765D771004CD02F /* List1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFAC64491765D771004CD02F /* List1.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +130,31 @@
 		DF6D9516175F632500AA04A6 /* TDTImageBubbleAvatarAndTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTImageBubbleAvatarAndTextView.m; sourceTree = "<group>"; };
 		DF6D9518175F641200AA04A6 /* TDTBubbleDataWithText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTBubbleDataWithText.h; sourceTree = "<group>"; };
 		DF6D9519175F641400AA04A6 /* TDTBubbleDataWithText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTBubbleDataWithText.m; sourceTree = "<group>"; };
+		DF6D951B1760689D00AA04A6 /* TDTTextImplementationsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTTextImplementationsVC.h; sourceTree = "<group>"; };
+		DF6D951C1760689D00AA04A6 /* TDTTextImplementationsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTTextImplementationsVC.m; sourceTree = "<group>"; };
+		DF6D951F1760697F00AA04A6 /* TDTDrawRectTextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDrawRectTextVC.h; sourceTree = "<group>"; };
+		DF6D95201760697F00AA04A6 /* TDTDrawRectTextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDrawRectTextVC.m; sourceTree = "<group>"; };
+		DF6D95221760699800AA04A6 /* TDTUILabelTextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTUILabelTextVC.h; sourceTree = "<group>"; };
+		DF6D95231760699800AA04A6 /* TDTUILabelTextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTUILabelTextVC.m; sourceTree = "<group>"; };
+		DF6D9525176069AB00AA04A6 /* TDTCALayerTextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTCALayerTextVC.h; sourceTree = "<group>"; };
+		DF6D9526176069AB00AA04A6 /* TDTCALayerTextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTCALayerTextVC.m; sourceTree = "<group>"; };
+		DFAC642D17659346004CD02F /* TDTRoughWorkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTRoughWorkVC.h; sourceTree = "<group>"; };
+		DFAC642E17659346004CD02F /* TDTRoughWorkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTRoughWorkVC.m; sourceTree = "<group>"; };
+		DFAC643017659539004CD02F /* happyEmoticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happyEmoticon.png; sourceTree = "<group>"; };
+		DFAC643117659539004CD02F /* happyEmoticon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happyEmoticon@2x.png"; sourceTree = "<group>"; };
+		DFAC64341765962D004CD02F /* testImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImg.png; sourceTree = "<group>"; };
+		DFAC6436176598EE004CD02F /* TDTCustomEmoticonsMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTCustomEmoticonsMenuVC.h; sourceTree = "<group>"; };
+		DFAC6437176598EE004CD02F /* TDTCustomEmoticonsMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTCustomEmoticonsMenuVC.m; sourceTree = "<group>"; };
+		DFAC643A17659983004CD02F /* TDTWebViewMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTWebViewMethodVC.h; sourceTree = "<group>"; };
+		DFAC643B17659983004CD02F /* TDTWebViewMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTWebViewMethodVC.m; sourceTree = "<group>"; };
+		DFAC643D1765ACD6004CD02F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DFAC643F1765ACF7004CD02F /* TDTCTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTCTView.h; sourceTree = "<group>"; };
+		DFAC64401765ACF7004CD02F /* TDTCTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTCTView.m; sourceTree = "<group>"; };
+		DFAC64421765D067004CD02F /* sadEmoticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sadEmoticon.png; sourceTree = "<group>"; };
+		DFAC64431765D067004CD02F /* sadEmoticon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sadEmoticon@2x.png"; sourceTree = "<group>"; };
+		DFAC64461765D38D004CD02F /* TDTWebViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTWebViewData.h; sourceTree = "<group>"; };
+		DFAC64471765D38D004CD02F /* TDTWebViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTWebViewData.m; sourceTree = "<group>"; };
+		DFAC64491765D771004CD02F /* List1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List1.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFAC643E1765ACD6004CD02F /* CoreText.framework in Frameworks */,
 				DF10EAA6175E13E3004BAE2D /* QuartzCore.framework in Frameworks */,
 				DF10EA79175DFF5D004BAE2D /* UIKit.framework in Frameworks */,
 				DF10EA7B175DFF5D004BAE2D /* Foundation.framework in Frameworks */,
@@ -134,6 +176,7 @@
 		DF10EA6C175DFF5D004BAE2D = {
 			isa = PBXGroup;
 			children = (
+				DFAC643D1765ACD6004CD02F /* CoreText.framework */,
 				DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */,
 				DF10EA7E175DFF5D004BAE2D /* ChatMessageExperiments */,
 				DF10EA77175DFF5D004BAE2D /* Frameworks */,
@@ -179,15 +222,21 @@
 				DF10EA81175DFF5D004BAE2D /* InfoPlist.strings */,
 				DF10EA84175DFF5D004BAE2D /* main.m */,
 				DF10EA86175DFF5D004BAE2D /* ChatMessageExperiments-Prefix.pch */,
+				DFAC64421765D067004CD02F /* sadEmoticon.png */,
+				DFAC64431765D067004CD02F /* sadEmoticon@2x.png */,
 				DF6D94FA175F56FC00AA04A6 /* avatarPlaceHolder.png */,
 				DF6D94FB175F56FC00AA04A6 /* avatarPlaceHolder@2x.png */,
 				DF6D9504175F606F00AA04A6 /* avatarPlaceHolderMe.png */,
 				DF6D9505175F606F00AA04A6 /* avatarPlaceHolderMe@2x.png */,
+				DFAC64341765962D004CD02F /* testImg.png */,
 				DF10EA8A175DFF5D004BAE2D /* Default.png */,
+				DFAC643017659539004CD02F /* happyEmoticon.png */,
+				DFAC643117659539004CD02F /* happyEmoticon@2x.png */,
 				DF10EA8C175DFF5D004BAE2D /* Default@2x.png */,
 				DF10EA8E175DFF5D004BAE2D /* Default-568h@2x.png */,
 				DF6D94E5175F162800AA04A6 /* chat-bubble-incoming@2x.png */,
 				DF6D94E6175F162800AA04A6 /* chat-bubble-outgoing@2x.png */,
+				DFAC64491765D771004CD02F /* List1.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,6 +256,12 @@
 				DF6D94EF175F51D300AA04A6 /* Chat Bubble implementations */,
 				DF6D94F0175F51F900AA04A6 /* Chat Bubble and Avatars */,
 				DF6D9508175F626700AA04A6 /* Chat Bubble with Avatars and Text */,
+				DF6D951E176068A200AA04A6 /* Text Implementations */,
+				DFAC6439176598F4004CD02F /* Custom Emoticons */,
+				DFAC642D17659346004CD02F /* TDTRoughWorkVC.h */,
+				DFAC642E17659346004CD02F /* TDTRoughWorkVC.m */,
+				DFAC643F1765ACF7004CD02F /* TDTCTView.h */,
+				DFAC64401765ACF7004CD02F /* TDTCTView.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -264,6 +319,34 @@
 				DF6D9516175F632500AA04A6 /* TDTImageBubbleAvatarAndTextView.m */,
 			);
 			name = "Chat Bubble with Avatars and Text";
+			sourceTree = "<group>";
+		};
+		DF6D951E176068A200AA04A6 /* Text Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D951B1760689D00AA04A6 /* TDTTextImplementationsVC.h */,
+				DF6D951C1760689D00AA04A6 /* TDTTextImplementationsVC.m */,
+				DF6D951F1760697F00AA04A6 /* TDTDrawRectTextVC.h */,
+				DF6D95201760697F00AA04A6 /* TDTDrawRectTextVC.m */,
+				DF6D95221760699800AA04A6 /* TDTUILabelTextVC.h */,
+				DF6D95231760699800AA04A6 /* TDTUILabelTextVC.m */,
+				DF6D9525176069AB00AA04A6 /* TDTCALayerTextVC.h */,
+				DF6D9526176069AB00AA04A6 /* TDTCALayerTextVC.m */,
+			);
+			name = "Text Implementations";
+			sourceTree = "<group>";
+		};
+		DFAC6439176598F4004CD02F /* Custom Emoticons */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC6436176598EE004CD02F /* TDTCustomEmoticonsMenuVC.h */,
+				DFAC6437176598EE004CD02F /* TDTCustomEmoticonsMenuVC.m */,
+				DFAC643A17659983004CD02F /* TDTWebViewMethodVC.h */,
+				DFAC643B17659983004CD02F /* TDTWebViewMethodVC.m */,
+				DFAC64461765D38D004CD02F /* TDTWebViewData.h */,
+				DFAC64471765D38D004CD02F /* TDTWebViewData.m */,
+			);
+			name = "Custom Emoticons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +413,12 @@
 				DF6D94FD175F56FC00AA04A6 /* avatarPlaceHolder@2x.png in Resources */,
 				DF6D9506175F606F00AA04A6 /* avatarPlaceHolderMe.png in Resources */,
 				DF6D9507175F606F00AA04A6 /* avatarPlaceHolderMe@2x.png in Resources */,
+				DFAC643217659539004CD02F /* happyEmoticon.png in Resources */,
+				DFAC643317659539004CD02F /* happyEmoticon@2x.png in Resources */,
+				DFAC64351765962D004CD02F /* testImg.png in Resources */,
+				DFAC64441765D067004CD02F /* sadEmoticon.png in Resources */,
+				DFAC64451765D067004CD02F /* sadEmoticon@2x.png in Resources */,
+				DFAC644A1765D771004CD02F /* List1.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +452,15 @@
 				DF6D9514175F631400AA04A6 /* TDTLayerBubbleAvatarAndTextView.m in Sources */,
 				DF6D9517175F632500AA04A6 /* TDTImageBubbleAvatarAndTextView.m in Sources */,
 				DF6D951A175F641600AA04A6 /* TDTBubbleDataWithText.m in Sources */,
+				DF6D951D1760689D00AA04A6 /* TDTTextImplementationsVC.m in Sources */,
+				DF6D95211760697F00AA04A6 /* TDTDrawRectTextVC.m in Sources */,
+				DF6D95241760699800AA04A6 /* TDTUILabelTextVC.m in Sources */,
+				DF6D9527176069AC00AA04A6 /* TDTCALayerTextVC.m in Sources */,
+				DFAC642F17659346004CD02F /* TDTRoughWorkVC.m in Sources */,
+				DFAC6438176598EE004CD02F /* TDTCustomEmoticonsMenuVC.m in Sources */,
+				DFAC643C17659983004CD02F /* TDTWebViewMethodVC.m in Sources */,
+				DFAC64411765ACF8004CD02F /* TDTCTView.m in Sources */,
+				DFAC64481765D38D004CD02F /* TDTWebViewData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
