@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface TDTRoughWorkVC : UIViewController
+#import "DTCoreText.h"
+@interface TDTRoughWorkVC : UIViewController <DTAttributedTextContentViewDelegate>
 
 @end

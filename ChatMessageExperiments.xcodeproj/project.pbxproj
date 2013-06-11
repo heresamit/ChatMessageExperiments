@@ -21,6 +21,11 @@
 		DF10EAA1175E0823004BAE2D /* MessageFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF10EAA0175E0823004BAE2D /* MessageFile.plist */; };
 		DF10EAA4175E1224004BAE2D /* TDTSkippedFrameCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */; };
 		DF10EAA6175E13E3004BAE2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */; };
+		DF57B5FF1766DCA5004337A6 /* TDTDTAttributedTextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57B5FE1766DCA5004337A6 /* TDTDTAttributedTextViewVC.m */; };
+		DF57B7AB1766E4A3004337A6 /* libDTCoreText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57B7A21766E47B004337A6 /* libDTCoreText.a */; };
+		DF57B7AD1766E4AD004337A6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57B7AC1766E4AD004337A6 /* libxml2.dylib */; };
+		DF57B7AF1766E4B9004337A6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57B7AE1766E4B9004337A6 /* ImageIO.framework */; };
+		DF57B7B11766E4CD004337A6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57B7B01766E4CD004337A6 /* MobileCoreServices.framework */; };
 		DF6D94D5175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94D4175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.m */; };
 		DF6D94D8175EF5F300AA04A6 /* TDTBubbleImplementationsMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94D7175EF5F300AA04A6 /* TDTBubbleImplementationsMenuViewController.m */; };
 		DF6D94DB175EFA2C00AA04A6 /* TDTBubbleData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D94DA175EFA2C00AA04A6 /* TDTBubbleData.m */; };
@@ -64,6 +69,58 @@
 		DFAC644A1765D771004CD02F /* List1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFAC64491765D771004CD02F /* List1.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DF57B79D1766E47B004337A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = DemoApp;
+		};
+		DF57B79F1766E47B004337A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A70F119B14863198009202BF;
+			remoteInfo = "Static Framework";
+		};
+		DF57B7A11766E47B004337A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A70F11DE148632CD009202BF;
+			remoteInfo = "Static Library";
+		};
+		DF57B7A31766E47B004337A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A788CA681486456100E1AFD9;
+			remoteInfo = UnitTest;
+		};
+		DF57B7A51766E47B004337A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7949A5814CC456000A8CCDE;
+			remoteInfo = MacUnitTest;
+		};
+		DF57B7A71766E47B004337A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7F7EFCD1573603100F5A4D0;
+			remoteInfo = "Static Library (no DTFoundation)";
+		};
+		DF57B7A91766E47B004337A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2262DC61638331500BFDAD7;
+			remoteInfo = "Mac Framework";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		DF10EA75175DFF5D004BAE2D /* ChatMessageExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMessageExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF10EA78175DFF5D004BAE2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -86,6 +143,12 @@
 		DF10EAA2175E1223004BAE2D /* TDTSkippedFrameCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTSkippedFrameCounter.h; sourceTree = "<group>"; };
 		DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTSkippedFrameCounter.m; sourceTree = "<group>"; };
 		DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF57B5FD1766DCA5004337A6 /* TDTDTAttributedTextViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDTAttributedTextViewVC.h; sourceTree = "<group>"; };
+		DF57B5FE1766DCA5004337A6 /* TDTDTAttributedTextViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDTAttributedTextViewVC.m; sourceTree = "<group>"; };
+		DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DTCoreText.xcodeproj; path = External/DTCoreText/DTCoreText.xcodeproj; sourceTree = "<group>"; };
+		DF57B7AC1766E4AD004337A6 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		DF57B7AE1766E4B9004337A6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DF57B7B01766E4CD004337A6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		DF6D94D3175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDrawRectBubblesVC.h; sourceTree = "<group>"; };
 		DF6D94D4175EF5AC00AA04A6 /* TDTDrawRectBubblesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDrawRectBubblesVC.m; sourceTree = "<group>"; };
 		DF6D94D6175EF5F200AA04A6 /* TDTBubbleImplementationsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTBubbleImplementationsMenuViewController.h; sourceTree = "<group>"; };
@@ -162,7 +225,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF57B7B11766E4CD004337A6 /* MobileCoreServices.framework in Frameworks */,
 				DFAC643E1765ACD6004CD02F /* CoreText.framework in Frameworks */,
+				DF57B7AF1766E4B9004337A6 /* ImageIO.framework in Frameworks */,
+				DF57B7AD1766E4AD004337A6 /* libxml2.dylib in Frameworks */,
+				DF57B7AB1766E4A3004337A6 /* libDTCoreText.a in Frameworks */,
 				DF10EAA6175E13E3004BAE2D /* QuartzCore.framework in Frameworks */,
 				DF10EA79175DFF5D004BAE2D /* UIKit.framework in Frameworks */,
 				DF10EA7B175DFF5D004BAE2D /* Foundation.framework in Frameworks */,
@@ -176,8 +243,7 @@
 		DF10EA6C175DFF5D004BAE2D = {
 			isa = PBXGroup;
 			children = (
-				DFAC643D1765ACD6004CD02F /* CoreText.framework */,
-				DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */,
+				DF57B6011766DFCF004337A6 /* Externals */,
 				DF10EA7E175DFF5D004BAE2D /* ChatMessageExperiments */,
 				DF10EA77175DFF5D004BAE2D /* Frameworks */,
 				DF10EA76175DFF5D004BAE2D /* Products */,
@@ -195,6 +261,11 @@
 		DF10EA77175DFF5D004BAE2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF57B7B01766E4CD004337A6 /* MobileCoreServices.framework */,
+				DF57B7AE1766E4B9004337A6 /* ImageIO.framework */,
+				DF57B7AC1766E4AD004337A6 /* libxml2.dylib */,
+				DFAC643D1765ACD6004CD02F /* CoreText.framework */,
+				DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */,
 				DF10EA78175DFF5D004BAE2D /* UIKit.framework */,
 				DF10EA7A175DFF5D004BAE2D /* Foundation.framework */,
 				DF10EA7C175DFF5D004BAE2D /* CoreGraphics.framework */,
@@ -264,6 +335,48 @@
 				DFAC64401765ACF7004CD02F /* TDTCTView.m */,
 			);
 			name = Source;
+			sourceTree = "<group>";
+		};
+		DF57B5FB1766DAD8004337A6 /* Using WebViews */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC643A17659983004CD02F /* TDTWebViewMethodVC.h */,
+				DFAC643B17659983004CD02F /* TDTWebViewMethodVC.m */,
+				DFAC64461765D38D004CD02F /* TDTWebViewData.h */,
+				DFAC64471765D38D004CD02F /* TDTWebViewData.m */,
+			);
+			name = "Using WebViews";
+			sourceTree = "<group>";
+		};
+		DF57B5FC1766DAE2004337A6 /* Using DTAttributedTextView */ = {
+			isa = PBXGroup;
+			children = (
+				DF57B5FD1766DCA5004337A6 /* TDTDTAttributedTextViewVC.h */,
+				DF57B5FE1766DCA5004337A6 /* TDTDTAttributedTextViewVC.m */,
+			);
+			name = "Using DTAttributedTextView";
+			sourceTree = "<group>";
+		};
+		DF57B6011766DFCF004337A6 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		DF57B7921766E479004337A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF57B79E1766E47B004337A6 /* RTDemoApp.app */,
+				DF57B7A01766E47B004337A6 /* DTCoreText.framework */,
+				DF57B7A21766E47B004337A6 /* libDTCoreText.a */,
+				DF57B7A41766E47B004337A6 /* UnitTest.octest */,
+				DF57B7A61766E47B004337A6 /* MacUnitTest.octest */,
+				DF57B7A81766E47B004337A6 /* libDTCoreText_no_DTFoundation.a */,
+				DF57B7AA1766E47B004337A6 /* DTCoreText.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		DF6D94EF175F51D300AA04A6 /* Chat Bubble implementations */ = {
@@ -341,10 +454,8 @@
 			children = (
 				DFAC6436176598EE004CD02F /* TDTCustomEmoticonsMenuVC.h */,
 				DFAC6437176598EE004CD02F /* TDTCustomEmoticonsMenuVC.m */,
-				DFAC643A17659983004CD02F /* TDTWebViewMethodVC.h */,
-				DFAC643B17659983004CD02F /* TDTWebViewMethodVC.m */,
-				DFAC64461765D38D004CD02F /* TDTWebViewData.h */,
-				DFAC64471765D38D004CD02F /* TDTWebViewData.m */,
+				DF57B5FB1766DAD8004337A6 /* Using WebViews */,
+				DF57B5FC1766DAE2004337A6 /* Using DTAttributedTextView */,
 			);
 			name = "Custom Emoticons";
 			sourceTree = "<group>";
@@ -389,12 +500,70 @@
 			mainGroup = DF10EA6C175DFF5D004BAE2D;
 			productRefGroup = DF10EA76175DFF5D004BAE2D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DF57B7921766E479004337A6 /* Products */;
+					ProjectRef = DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DF10EA74175DFF5D004BAE2D /* ChatMessageExperiments */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DF57B79E1766E47B004337A6 /* RTDemoApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RTDemoApp.app;
+			remoteRef = DF57B79D1766E47B004337A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF57B7A01766E47B004337A6 /* DTCoreText.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DTCoreText.framework;
+			remoteRef = DF57B79F1766E47B004337A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF57B7A21766E47B004337A6 /* libDTCoreText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTCoreText.a;
+			remoteRef = DF57B7A11766E47B004337A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF57B7A41766E47B004337A6 /* UnitTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTest.octest;
+			remoteRef = DF57B7A31766E47B004337A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF57B7A61766E47B004337A6 /* MacUnitTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MacUnitTest.octest;
+			remoteRef = DF57B7A51766E47B004337A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF57B7A81766E47B004337A6 /* libDTCoreText_no_DTFoundation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTCoreText_no_DTFoundation.a;
+			remoteRef = DF57B7A71766E47B004337A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF57B7AA1766E47B004337A6 /* DTCoreText.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DTCoreText.framework;
+			remoteRef = DF57B7A91766E47B004337A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DF10EA73175DFF5D004BAE2D /* Resources */ = {
@@ -461,6 +630,7 @@
 				DFAC643C17659983004CD02F /* TDTWebViewMethodVC.m in Sources */,
 				DFAC64411765ACF8004CD02F /* TDTCTView.m in Sources */,
 				DFAC64481765D38D004CD02F /* TDTWebViewData.m in Sources */,
+				DF57B5FF1766DCA5004337A6 /* TDTDTAttributedTextViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +719,9 @@
 				GCC_PREFIX_HEADER = "ChatMessageExperiments/ChatMessageExperiments-Prefix.pch";
 				INFOPLIST_FILE = "ChatMessageExperiments/ChatMessageExperiments-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "External/DTCoreText/Core/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -561,7 +733,9 @@
 				GCC_PREFIX_HEADER = "ChatMessageExperiments/ChatMessageExperiments-Prefix.pch";
 				INFOPLIST_FILE = "ChatMessageExperiments/ChatMessageExperiments-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "External/DTCoreText/Core/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

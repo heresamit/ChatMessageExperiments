@@ -8,6 +8,10 @@
 
 #import "TDTRoughWorkVC.h"
 #import "Constants.h"
+#import "DTCoreText.h"
+#import <malloc/malloc.h>
+#import <objc/runtime.h>
+
 @interface TDTRoughWorkVC ()
 @property (nonatomic, strong) NSMutableDictionary * emoticonDict;
 @property (nonatomic, strong) NSString *myHTML;
@@ -49,15 +53,37 @@
     [self.view addSubview:myUIWebView];
     //NSLog(@"%f",myUIWebView.scrollView.contentSize.height);
 	// Do any additional setup after loading the view.
+    
+    
+    DTAttributedLabel *newLabel = [[DTAttributedLabel alloc] initWithFrame:CGRectMake(10, 200, MAXTEXTWIDTH, 200)];
+    newLabel.numberOfLines = 0;
+    newLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    newLabel.delegate = self;
+    NSData *abc = [self.myHTML dataUsingEncoding:NSUTF8StringEncoding];
+    NSDictionary *builderOptions = @{
+                                     DTDefaultFontFamily: @"Helvetica",
+                                     DTDefaultFontSize:@15,
+                                     
+                                     };
+    DTHTMLAttributedStringBuilder *stringBuilder = [[DTHTMLAttributedStringBuilder alloc] initWithHTML:abc
+                                                                                               options:builderOptions
+                                                                                    documentAttributes:nil];
+    
+    
+    newLabel.attributedString = [stringBuilder generatedAttributedString] ;
+    NSLog(@"Object Size: %d",abc.length);
+    [self.view addSubview:newLabel];
 }
+
 -(NSString *) parseStringToHTML: (NSString *)text
 {
     __block NSString *text1 = [NSString stringWithFormat:@"<html><p>%@</p></html>",text];
     [self.emoticonDict enumerateKeysAndObjectsUsingBlock: ^(id key, id obj, BOOL *stop) {
-        text1 = [text1 stringByReplacingOccurrencesOfString:key withString:[NSString stringWithFormat:@"<img height= 15 width= 15 src=\"%@\">",obj]];
+        text1 = [text1 stringByReplacingOccurrencesOfString:key withString:[NSString stringWithFormat:@"<img height=15 width= 15 src=\"%@\">",obj]];
     }];
     return text1;
 }
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

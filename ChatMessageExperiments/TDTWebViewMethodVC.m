@@ -71,8 +71,7 @@
     
     TDTWebViewData *data = self.dataArray[indexPath.row];
     
-    for(id view in cell.contentView.subviews)
-        [view removeFromSuperview];
+
     //----------------------------Code That Uses Webview of data Begins
     
     for(id view in cell.contentView.subviews)

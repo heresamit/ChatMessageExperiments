@@ -18,7 +18,7 @@
         text1 = [text1 stringByReplacingOccurrencesOfString:key withString:[NSString stringWithFormat:@"<img height= 15 width= 15 src=\"%@\">",obj]];
     }];
     
-    return  [text1 dataUsingEncoding:NSUTF8StringEncoding];;
+    return  [text1 dataUsingEncoding:NSUTF8StringEncoding];
 }
 
 - (id)initWithText:(NSString *)text withType:(TDTBubbleType)type withEmoticonDict:(NSMutableDictionary *)emoticonDict
@@ -45,6 +45,7 @@
     CGFloat height = [[aWebView stringByEvaluatingJavaScriptFromString:@"document.height"] floatValue];
     CGFloat width = [[aWebView stringByEvaluatingJavaScriptFromString:@"document.width"] floatValue];
     self.sizeOfWebView = CGSizeMake(width, height);
+    self.temp = nil;
 }
 
 @end

@@ -791,7 +791,37 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lwm-rS-e9K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5596" y="-958"/>
+            <point key="canvasLocation" x="-6044" y="-1518"/>
+        </scene>
+        <!--Attributed Text ViewVC-->
+        <scene sceneID="OgE-QV-OL6">
+            <objects>
+                <tableViewController id="v6x-Ws-lWf" customClass="TDTDTAttributedTextViewVC" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2PX-Gr-mhk">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DTCoreTextCells" id="ZWL-tg-chP">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="v6x-Ws-lWf" id="FNa-9R-if2"/>
+                            <outlet property="delegate" destination="v6x-Ws-lWf" id="o38-FX-jlC"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Rr8-Dh-Xg8"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Wa-ze-c4x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5363" y="-1090"/>
         </scene>
         <!--Custom Emoticons MenuVC-->
         <scene sceneID="EZ9-gj-ivw">
@@ -823,14 +853,14 @@
                                             <segue destination="OWs-Ad-r3s" kind="push" identifier="UIWebViewSegue" id="XVw-qq-cqd"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="epB-zi-D9d" style="IBUITableViewCellStyleDefault" id="AIT-rT-DzQ">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="epB-zi-D9d" style="IBUITableViewCellStyleDefault" id="AIT-rT-DzQ">
                                         <rect key="frame" x="0.0" y="44" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epB-zi-D9d">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="DTAttributedTextViews" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epB-zi-D9d">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -838,6 +868,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="v6x-Ws-lWf" kind="push" identifier="DTAttributedTextViewSegue" id="CDc-b6-wju"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Dft-Bc-AfW" style="IBUITableViewCellStyleDefault" id="klk-gA-da0">
                                         <rect key="frame" x="0.0" y="88" width="320" height="44"/>
@@ -888,6 +921,68 @@
             <point key="canvasLocation" x="-4282" y="593"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="TDTBubbleImplementationsMenuViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTBubbleImplementationsMenuViewController.h"/>
+        </class>
+        <class className="TDTBubbleWithAvatarAndTextVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTBubbleWithAvatarAndTextVC.h"/>
+        </class>
+        <class className="TDTCALayerTextVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTCALayerTextVC.h"/>
+        </class>
+        <class className="TDTCTView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTCTView.h"/>
+        </class>
+        <class className="TDTChatBubbleAndAvatarVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTChatBubbleAndAvatarVC.h"/>
+        </class>
+        <class className="TDTCustomEmoticonsMenuVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTCustomEmoticonsMenuVC.h"/>
+        </class>
+        <class className="TDTDTAttributedTextViewVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTDTAttributedTextViewVC.h"/>
+        </class>
+        <class className="TDTDrawRectBubblesVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTDrawRectBubblesVC.h"/>
+        </class>
+        <class className="TDTDrawRectTextVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTDrawRectTextVC.h"/>
+        </class>
+        <class className="TDTImageBubblesAndAvatarVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTImageBubblesAndAvatarVC.h"/>
+        </class>
+        <class className="TDTImageBubblesAvatarsAndTextVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTImageBubblesAvatarsAndTextVC.h"/>
+        </class>
+        <class className="TDTImageBubblesVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTImageBubblesVC.h"/>
+        </class>
+        <class className="TDTLayerBubblesAndAvatarVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTLayerBubblesAndAvatarVC.h"/>
+        </class>
+        <class className="TDTLayerBubblesAvatarsAndTextVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTLayerBubblesAvatarsAndTextVC.h"/>
+        </class>
+        <class className="TDTLayerBubblesVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTLayerBubblesVC.h"/>
+        </class>
+        <class className="TDTMainMenuViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTMainMenuViewController.h"/>
+        </class>
+        <class className="TDTRoughWorkVC" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTRoughWorkVC.h"/>
+        </class>
+        <class className="TDTTextImplementationsVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTTextImplementationsVC.h"/>
+        </class>
+        <class className="TDTUILabelTextVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTUILabelTextVC.h"/>
+        </class>
+        <class className="TDTWebViewMethodVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TDTWebViewMethodVC.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
