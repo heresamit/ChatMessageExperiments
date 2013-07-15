@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface TDTWebViewMethodVC : UITableViewController
+#import "TDTSkippedFrameCounter.h"
+@interface TDTWebViewMethodVC : UITableViewController <TDTskippedFrameCounterProtocol>
 @property (nonatomic, weak) NSMutableArray *dataArray;
 @end

@@ -16,11 +16,11 @@ typedef enum
 }TDTBubbleType;
 
 #define MAXTEXTWIDTH 250.0f
-#define YCELLBUFFER 11.0f //This is the top + bottom margin between bubble and UITableViewCell.
+#define YCELLBUFFER 15.0f //This is the top + bottom margin between bubble and UITableViewCell.
 #define CORNERRADIUS 8.0f
 #define triangleHeight 9.5f
 #define triangleWidth 9.5f
-#define YTEXTBUFFER 5.0f
+#define YTEXTBUFFER 10.0f
 
 #define AVATARPICHEIGHT 30.0f
 #define AVATARPICWIDTH 30.0f

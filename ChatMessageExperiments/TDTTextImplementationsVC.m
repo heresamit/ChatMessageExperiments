@@ -18,7 +18,6 @@
 
 @implementation TDTTextImplementationsVC
 
-
 -(void) parseData
 {
     _dataArray = [[NSMutableArray alloc] initWithCapacity:self.messageArray.count];
@@ -43,4 +42,6 @@
         TDTCALayerTextVC *dvc = (TDTCALayerTextVC *)[segue destinationViewController];
         dvc.dataArray = self.dataArray;
     }
-}@end
+}
+
+@end

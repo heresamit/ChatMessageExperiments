@@ -67,7 +67,7 @@
         textLabel = [[UILabel alloc] init];
         textLabel.font = [UIFont fontWithName:@"Helvetica Neue" size:15.0f];
         textLabel.text = data.text;
-        textLabel.numberOfLines = 0.0f;
+        textLabel.numberOfLines = 0;
         textLabel.backgroundColor = [UIColor clearColor];
         [textLabel setFrame: (data.type == sent ? CGRectMake(cell.contentView.frame.size.width - data.sizeOfBubble.width - XTEXTBUFFER, YCELLBUFFER/2.0f, data.sizeOfBubble.width, data.sizeOfBubble.height):CGRectMake(XTEXTBUFFER, YCELLBUFFER/2.0f, data.sizeOfBubble.width, data.sizeOfBubble.height))];
         

@@ -5,7 +5,7 @@
 //  Created by Amit Chowdhary on 10/06/13.
 //  Copyright (c) 2013 Amit Chowdhary. All rights reserved.
 //
-
+#import "DTCoreText.h"
 #import "TDTCTView.h"
 
 @implementation TDTCTView
@@ -22,8 +22,6 @@
 {
     [super drawRect:rect];
     CGContextRef context = UIGraphicsGetCurrentContext();
-    
-    
     CGContextSetTextMatrix(context, CGAffineTransformIdentity);
     CGContextTranslateCTM(context, 0, self.bounds.size.height);
     CGContextScaleCTM(context, 1.0, -1.0);
@@ -32,7 +30,8 @@
     CGPathAddRect(path, NULL, self.bounds );
     
     NSAttributedString* attString = [[NSAttributedString alloc]
-                                      initWithString:@"Hello core text world!"]; //2
+                                      initWithString:@"Hello core text world!"];
+    //2
     
     CTFramesetterRef framesetter =
     CTFramesetterCreateWithAttributedString((__bridge CFAttributedStringRef)attString); //3

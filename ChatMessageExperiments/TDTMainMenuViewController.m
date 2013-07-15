@@ -11,6 +11,8 @@
 #import "TDTChatBubbleAndAvatarVC.h"
 #import "TDTTextImplementationsVC.h"
 #import "TDTCustomEmoticonsMenuVC.h"
+#import "TDTCustomFontImplementationsVC.h"
+#import "TDTCompleteChatTableVC.h"
 
 @interface TDTMainMenuViewController ()
 @property (nonatomic,strong) NSMutableArray *messageArray;
@@ -23,7 +25,7 @@
     self = [super initWithCoder:aDecoder];
     if (self)
     {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"List1" ofType:@"plist"];
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"MessageFile" ofType:@"plist"];
         self.messageArray = [[NSMutableArray alloc] initWithContentsOfFile:path];
     }
     return self;
@@ -85,7 +87,18 @@
         [dvc parseData];
         //parse Some data there?
     }
-    //customEmoticonsSegue
-
+    else if([[segue identifier] isEqualToString:@"customFontSegue"])
+    {
+        TDTCustomFontImplementationsVC *dvc = (TDTCustomFontImplementationsVC *)[segue destinationViewController];
+        dvc.messageArray = self.messageArray;
+        [dvc parseData];
+        //parse Some data there?
+    }
+    else if([[segue identifier] isEqualToString:@"completeSegue"])
+    {
+        TDTCompleteChatTableVC *dvc = (TDTCompleteChatTableVC *)[segue destinationViewController];
+        dvc.messageArray = self.messageArray;
+        //parse Some data there?
+    }
 }
 @end

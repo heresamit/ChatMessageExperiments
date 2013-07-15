@@ -27,7 +27,7 @@
         _text = text;
         if(type == sent || type == sentSelected)
             self.frame = CGRectMake( [[UIScreen mainScreen] bounds].size.width - temp, 0.0f,temp, MAX(self.size.height + YTEXTBUFFER , AVATARPICHEIGHT) + YCELLBUFFER);
-        
+
         self.backgroundColor = [UIColor clearColor];
         [self setup];
     }

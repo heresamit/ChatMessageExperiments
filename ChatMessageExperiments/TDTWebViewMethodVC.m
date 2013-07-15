@@ -11,7 +11,9 @@
 #import "Constants.h"
 
 @interface TDTWebViewMethodVC ()
-@property (nonatomic,strong) NSMutableDictionary *webViewCache;
+@property (nonatomic,strong) TDTSkippedFrameCounter* sfc;
+@property (nonatomic) double time;
+//@property (nonatomic,strong) NSMutableDictionary *webViewCache;
 @end
 
 @implementation TDTWebViewMethodVC
@@ -24,15 +26,15 @@
     }
     return self;
 }
--(id) initWithCoder:(NSCoder *)aDecoder
-{
-    self = [super initWithCoder:aDecoder];
-    if (self)
-    {
-        _webViewCache = [[NSMutableDictionary alloc] init];
-    }
-    return self;
-}
+//-(id) initWithCoder:(NSCoder *)aDecoder
+//{
+//    self = [super initWithCoder:aDecoder];
+//    if (self)
+//    {
+//        _webViewCache = [[NSMutableDictionary alloc] init];
+//    }
+//    return self;
+//}
 
 - (void)viewDidLoad
 {
@@ -73,7 +75,7 @@
     
 
     //----------------------------Code That Uses Webview of data Begins
-    
+    /*
     for(id view in cell.contentView.subviews)
         [view removeFromSuperview];
     
@@ -84,7 +86,7 @@
     }
     
     [cell.contentView addSubview:data.temp];
-    
+    */
     //----------------------------Code That Uses Webview of data Ends    
  /*
     //-----------------------------Caching code Begins
@@ -110,28 +112,29 @@
     //-----------------------------Caching code Ends
  */
     //-----------------------------Normal code Starts
-//    BOOL token = NO;
-//   
-//    for(id view in cell.contentView.subviews)
-//    {
-//        if ([view isKindOfClass:[UIWebView class]])
-//        {
-//            [view setFrame: (data.type == sent ? CGRectMake(cell.contentView.frame.size.width - data.sizeOfWebView.width - XTEXTBUFFER, YCELLBUFFER/2.0f, data.sizeOfWebView.width, data.sizeOfWebView.height):CGRectMake(XTEXTBUFFER, YCELLBUFFER/2.0f, data.sizeOfWebView.width, data.sizeOfWebView.height))];
-//            [view loadData:data.htmlData MIMEType:@"text/html" textEncodingName:@"utf-8" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
-//            token = YES;
-//        }
-//    }
-//    
-//    if(!token)
-//    {
-//        temp = [[UIWebView alloc] initWithFrame:(data.type == sent ? CGRectMake(cell.contentView.frame.size.width - data.sizeOfWebView.width - XTEXTBUFFER, YCELLBUFFER/2.0f, data.sizeOfWebView.width, data.sizeOfWebView.height):CGRectMake(XTEXTBUFFER, YCELLBUFFER/2.0f, data.sizeOfWebView.width, data.sizeOfWebView.height))];
-//        [temp loadData:data.htmlData MIMEType:@"text/html" textEncodingName:@"utf-8" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];        temp.scrollView.scrollEnabled = NO;
-//        temp.opaque = NO;
-//        temp.backgroundColor = [UIColor clearColor];
-//        [cell.contentView addSubview:temp];
-//        
-//
-//    }
+    BOOL token = NO;
+   
+    for(id view in cell.contentView.subviews)
+    {
+        if ([view isKindOfClass:[UIWebView class]])
+        {
+            [view setFrame: (data.type == sent ? CGRectMake(cell.contentView.frame.size.width - data.sizeOfWebView.width - XTEXTBUFFER, YCELLBUFFER/2.0f, data.sizeOfWebView.width, data.sizeOfWebView.height):CGRectMake(XTEXTBUFFER, YCELLBUFFER/2.0f, data.sizeOfWebView.width, data.sizeOfWebView.height))];
+            [view loadData:data.htmlData MIMEType:@"text/html" textEncodingName:@"utf-8" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
+            token = YES;
+        }
+    }
+    
+    if(!token)
+    {
+        UIWebView *temp;
+        temp = [[UIWebView alloc] initWithFrame:(data.type == sent ? CGRectMake(cell.contentView.frame.size.width - data.sizeOfWebView.width - XTEXTBUFFER, YCELLBUFFER/2.0f, data.sizeOfWebView.width, data.sizeOfWebView.height):CGRectMake(XTEXTBUFFER, YCELLBUFFER/2.0f, data.sizeOfWebView.width, data.sizeOfWebView.height))];
+        [temp loadData:data.htmlData MIMEType:@"text/html" textEncodingName:@"utf-8" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];        temp.scrollView.scrollEnabled = NO;
+        temp.opaque = NO;
+        temp.backgroundColor = [UIColor clearColor];
+        [cell.contentView addSubview:temp];
+        
+
+    }
  //-----------------------------Normal code Ends
     return cell;
 }
@@ -191,7 +194,53 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     TDTWebViewData *data = self.dataArray[indexPath.row];
-    NSLog(@"%f",data.sizeOfWebView.height + YCELLBUFFER);
+    //NSLog(@"%f",data.sizeOfWebView.height + YCELLBUFFER);
     return data.sizeOfWebView.height + YCELLBUFFER;
 }
+-(id) initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self)
+        _sfc = [[TDTSkippedFrameCounter alloc] initWithDelegate:self];
+    return self;
+}
+
+-(void) updateSkippedFrames:(int)toDisplay
+{
+    self.navigationItem.title = [NSString stringWithFormat:@"%d",toDisplay];
+}
+
+-(void) viewDidAppear:(BOOL)animated
+{
+    _time = CFAbsoluteTimeGetCurrent();
+    [self scrollAutomatically:0];
+}
+
+-(void) scrollAutomatically:(int) i
+{
+    __block int j = i;
+    [UIView animateWithDuration: .002
+                     animations: ^{
+                         [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:j inSection:0] atScrollPosition:UITableViewScrollPositionBottom animated:NO];
+                     }completion: ^(BOOL finished){
+                         j = j + 10;
+                         //NSLog(@"%d",i);
+                         if(j<=2999)
+                             [self scrollAutomatically:j];
+                         else
+                         {
+                             double temp = CFAbsoluteTimeGetCurrent() - _time;
+                             UIAlertView *alert = [[UIAlertView alloc]
+                                                   initWithTitle: @"Results (UILabel text)"
+                                                   message: [NSString stringWithFormat:@"It took %.3f seconds to scroll %d messages (if Back wasn't pressed) and %@ frames were skipped.\nRow index was incremented by 10 after every 0.002 seconds in this run.",temp,j,self.navigationItem.title]//@""
+                                                   delegate: nil
+                                                   cancelButtonTitle:@"OK"
+                                                   otherButtonTitles:nil];
+                             [alert show];
+                             NSLog(@"%f",temp);
+                         }
+                     }
+     ];
+}
+
 @end

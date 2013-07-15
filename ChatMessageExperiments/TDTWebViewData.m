@@ -29,13 +29,13 @@
         _isDirty = YES;
         _emoticonDict = emoticonDict;
         _type = type;
-        _temp = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, MAXTEXTWIDTH, 2)];
+        //_temp = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, MAXTEXTWIDTH, 2)];
         _htmlData = [self parseStringToHTML:text];
-        [_temp loadData:_htmlData MIMEType:@"text/html" textEncodingName:@"utf-8"  baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
-        _temp.delegate = self;
-        _temp.scrollView.scrollEnabled = NO;
-        _temp.opaque = NO;
-        _temp.backgroundColor = [UIColor clearColor];
+//        [_temp loadData:_htmlData MIMEType:@"text/html" textEncodingName:@"utf-8"  baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
+//        _temp.delegate = self;
+//        _temp.scrollView.scrollEnabled = NO;
+//        _temp.opaque = NO;
+//        _temp.backgroundColor = [UIColor clearColor];
     }
     return self;
 }

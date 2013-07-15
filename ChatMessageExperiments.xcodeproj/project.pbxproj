@@ -21,6 +21,15 @@
 		DF10EAA1175E0823004BAE2D /* MessageFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF10EAA0175E0823004BAE2D /* MessageFile.plist */; };
 		DF10EAA4175E1224004BAE2D /* TDTSkippedFrameCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */; };
 		DF10EAA6175E13E3004BAE2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */; };
+		DF2845FC17796B7A00D54678 /* libOHAttributedLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2845FA17796AF100D54678 /* libOHAttributedLabel.a */; };
+		DF2846001779982200D54678 /* TDTOHAttributedLabelMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2845FF1779982000D54678 /* TDTOHAttributedLabelMethodVC.m */; };
+		DF2846041779995500D54678 /* TDTCustomFontImplementationsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2846031779995500D54678 /* TDTCustomFontImplementationsVC.m */; };
+		DF28460717799CB500D54678 /* TDTAttrStrAndSizeData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF28460617799CB500D54678 /* TDTAttrStrAndSizeData.m */; };
+		DF28460A1779BBF800D54678 /* TDTNSAttributedStringMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2846091779BBF700D54678 /* TDTNSAttributedStringMethodVC.m */; };
+		DF28460D1779BF6A00D54678 /* TDTDTCoreTextMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF28460C1779BF6900D54678 /* TDTDTCoreTextMethodVC.m */; };
+		DF28460F1779D57900D54678 /* TDTEmoFull.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF28460E1779D57800D54678 /* TDTEmoFull.ttf */; };
+		DF4CB0061782CB86002CF1CE /* TDTEmoticonFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF4CB0051782CB86002CF1CE /* TDTEmoticonFont.ttf */; };
+		DF556FD91785AE72003B651C /* TDT Custom Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF556FD81785AE72003B651C /* TDT Custom Font.ttf */; };
 		DF57B5FF1766DCA5004337A6 /* TDTDTAttributedTextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57B5FE1766DCA5004337A6 /* TDTDTAttributedTextViewVC.m */; };
 		DF57B7AB1766E4A3004337A6 /* libDTCoreText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57B7A21766E47B004337A6 /* libDTCoreText.a */; };
 		DF57B7AD1766E4AD004337A6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57B7AC1766E4AD004337A6 /* libxml2.dylib */; };
@@ -67,9 +76,26 @@
 		DFAC64451765D067004CD02F /* sadEmoticon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC64431765D067004CD02F /* sadEmoticon@2x.png */; };
 		DFAC64481765D38D004CD02F /* TDTWebViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC64471765D38D004CD02F /* TDTWebViewData.m */; };
 		DFAC644A1765D771004CD02F /* List1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFAC64491765D771004CD02F /* List1.plist */; };
+		DFBFA99C177C4B3E004EDAE4 /* TDTCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBFA99B177C4B3E004EDAE4 /* TDTCellData.m */; };
+		DFBFA9AA177C5789004EDAE4 /* chat-bubble-incoming-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DFBFA9A6177C5789004EDAE4 /* chat-bubble-incoming-highlighted.png */; };
+		DFBFA9AB177C5789004EDAE4 /* chat-bubble-incoming-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFBFA9A7177C5789004EDAE4 /* chat-bubble-incoming-highlighted@2x.png */; };
+		DFBFA9AC177C5789004EDAE4 /* chat-bubble-outgoing-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DFBFA9A8177C5789004EDAE4 /* chat-bubble-outgoing-highlighted.png */; };
+		DFBFA9AD177C5789004EDAE4 /* chat-bubble-outgoing-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFBFA9A9177C5789004EDAE4 /* chat-bubble-outgoing-highlighted@2x.png */; };
+		DFD46569177AA7B000DB27F0 /* TDTCompleteChatTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD46568177AA7B000DB27F0 /* TDTCompleteChatTableVC.m */; };
+		DFD46575177AAB0000DB27F0 /* TDTFullDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD46574177AAB0000DB27F0 /* TDTFullDataObject.m */; };
+		DFD46577177AAE1200DB27F0 /* SmallMessageFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFD46576177AAE1200DB27F0 /* SmallMessageFile.plist */; };
+		DFD4657A177B095800DB27F0 /* TDTSentMessageCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD46579177B095700DB27F0 /* TDTSentMessageCustomView.m */; };
+		DFD4657D177B32BA00DB27F0 /* TDTReceivedMessageCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD4657C177B32B900DB27F0 /* TDTReceivedMessageCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DF2845F917796AF100D54678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2845F517796AF000D54678 /* OHAttributedLabel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09E159E8160F573A003025B4;
+			remoteInfo = OHAttributedLabel;
+		};
 		DF57B79D1766E47B004337A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */;
@@ -143,6 +169,20 @@
 		DF10EAA2175E1223004BAE2D /* TDTSkippedFrameCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTSkippedFrameCounter.h; sourceTree = "<group>"; };
 		DF10EAA3175E1223004BAE2D /* TDTSkippedFrameCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTSkippedFrameCounter.m; sourceTree = "<group>"; };
 		DF10EAA5175E13E3004BAE2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF2845F517796AF000D54678 /* OHAttributedLabel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OHAttributedLabel.xcodeproj; path = ../../OHAttributedLabel/OHAttributedLabel.xcodeproj; sourceTree = "<group>"; };
+		DF2845FE1779981E00D54678 /* TDTOHAttributedLabelMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTOHAttributedLabelMethodVC.h; sourceTree = "<group>"; };
+		DF2845FF1779982000D54678 /* TDTOHAttributedLabelMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTOHAttributedLabelMethodVC.m; sourceTree = "<group>"; };
+		DF2846021779995400D54678 /* TDTCustomFontImplementationsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTCustomFontImplementationsVC.h; sourceTree = "<group>"; };
+		DF2846031779995500D54678 /* TDTCustomFontImplementationsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTCustomFontImplementationsVC.m; sourceTree = "<group>"; };
+		DF28460517799CB400D54678 /* TDTAttrStrAndSizeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTAttrStrAndSizeData.h; sourceTree = "<group>"; };
+		DF28460617799CB500D54678 /* TDTAttrStrAndSizeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTAttrStrAndSizeData.m; sourceTree = "<group>"; };
+		DF2846081779BBF700D54678 /* TDTNSAttributedStringMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTNSAttributedStringMethodVC.h; sourceTree = "<group>"; };
+		DF2846091779BBF700D54678 /* TDTNSAttributedStringMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTNSAttributedStringMethodVC.m; sourceTree = "<group>"; };
+		DF28460B1779BF6800D54678 /* TDTDTCoreTextMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDTCoreTextMethodVC.h; sourceTree = "<group>"; };
+		DF28460C1779BF6900D54678 /* TDTDTCoreTextMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDTCoreTextMethodVC.m; sourceTree = "<group>"; };
+		DF28460E1779D57800D54678 /* TDTEmoFull.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TDTEmoFull.ttf; sourceTree = "<group>"; };
+		DF4CB0051782CB86002CF1CE /* TDTEmoticonFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TDTEmoticonFont.ttf; sourceTree = "<group>"; };
+		DF556FD81785AE72003B651C /* TDT Custom Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TDT Custom Font.ttf"; sourceTree = "<group>"; };
 		DF57B5FD1766DCA5004337A6 /* TDTDTAttributedTextViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDTAttributedTextViewVC.h; sourceTree = "<group>"; };
 		DF57B5FE1766DCA5004337A6 /* TDTDTAttributedTextViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDTAttributedTextViewVC.m; sourceTree = "<group>"; };
 		DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DTCoreText.xcodeproj; path = External/DTCoreText/DTCoreText.xcodeproj; sourceTree = "<group>"; };
@@ -218,6 +258,21 @@
 		DFAC64461765D38D004CD02F /* TDTWebViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTWebViewData.h; sourceTree = "<group>"; };
 		DFAC64471765D38D004CD02F /* TDTWebViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTWebViewData.m; sourceTree = "<group>"; };
 		DFAC64491765D771004CD02F /* List1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List1.plist; sourceTree = "<group>"; };
+		DFBFA99A177C4B3E004EDAE4 /* TDTCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTCellData.h; sourceTree = "<group>"; };
+		DFBFA99B177C4B3E004EDAE4 /* TDTCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTCellData.m; sourceTree = "<group>"; };
+		DFBFA9A6177C5789004EDAE4 /* chat-bubble-incoming-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-bubble-incoming-highlighted.png"; sourceTree = "<group>"; };
+		DFBFA9A7177C5789004EDAE4 /* chat-bubble-incoming-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-bubble-incoming-highlighted@2x.png"; sourceTree = "<group>"; };
+		DFBFA9A8177C5789004EDAE4 /* chat-bubble-outgoing-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-bubble-outgoing-highlighted.png"; sourceTree = "<group>"; };
+		DFBFA9A9177C5789004EDAE4 /* chat-bubble-outgoing-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-bubble-outgoing-highlighted@2x.png"; sourceTree = "<group>"; };
+		DFD46567177AA7B000DB27F0 /* TDTCompleteChatTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTCompleteChatTableVC.h; sourceTree = "<group>"; };
+		DFD46568177AA7B000DB27F0 /* TDTCompleteChatTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTCompleteChatTableVC.m; sourceTree = "<group>"; };
+		DFD46573177AAB0000DB27F0 /* TDTFullDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTFullDataObject.h; sourceTree = "<group>"; };
+		DFD46574177AAB0000DB27F0 /* TDTFullDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTFullDataObject.m; sourceTree = "<group>"; };
+		DFD46576177AAE1200DB27F0 /* SmallMessageFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SmallMessageFile.plist; sourceTree = "<group>"; };
+		DFD46578177B095700DB27F0 /* TDTSentMessageCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTSentMessageCustomView.h; sourceTree = "<group>"; };
+		DFD46579177B095700DB27F0 /* TDTSentMessageCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTSentMessageCustomView.m; sourceTree = "<group>"; };
+		DFD4657B177B32B900DB27F0 /* TDTReceivedMessageCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTReceivedMessageCustomView.h; sourceTree = "<group>"; };
+		DFD4657C177B32B900DB27F0 /* TDTReceivedMessageCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTReceivedMessageCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +280,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF2845FC17796B7A00D54678 /* libOHAttributedLabel.a in Frameworks */,
 				DF57B7B11766E4CD004337A6 /* MobileCoreServices.framework in Frameworks */,
 				DFAC643E1765ACD6004CD02F /* CoreText.framework in Frameworks */,
 				DF57B7AF1766E4B9004337A6 /* ImageIO.framework in Frameworks */,
@@ -288,14 +344,18 @@
 		DF10EA7F175DFF5D004BAE2D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF2845F517796AF000D54678 /* OHAttributedLabel.xcodeproj */,
 				DF10EAA0175E0823004BAE2D /* MessageFile.plist */,
+				DFAC64491765D771004CD02F /* List1.plist */,
 				DF10EA80175DFF5D004BAE2D /* ChatMessageExperiments-Info.plist */,
+				DFD46576177AAE1200DB27F0 /* SmallMessageFile.plist */,
 				DF10EA81175DFF5D004BAE2D /* InfoPlist.strings */,
 				DF10EA84175DFF5D004BAE2D /* main.m */,
 				DF10EA86175DFF5D004BAE2D /* ChatMessageExperiments-Prefix.pch */,
 				DFAC64421765D067004CD02F /* sadEmoticon.png */,
 				DFAC64431765D067004CD02F /* sadEmoticon@2x.png */,
 				DF6D94FA175F56FC00AA04A6 /* avatarPlaceHolder.png */,
+				DF4CB0051782CB86002CF1CE /* TDTEmoticonFont.ttf */,
 				DF6D94FB175F56FC00AA04A6 /* avatarPlaceHolder@2x.png */,
 				DF6D9504175F606F00AA04A6 /* avatarPlaceHolderMe.png */,
 				DF6D9505175F606F00AA04A6 /* avatarPlaceHolderMe@2x.png */,
@@ -303,11 +363,16 @@
 				DF10EA8A175DFF5D004BAE2D /* Default.png */,
 				DFAC643017659539004CD02F /* happyEmoticon.png */,
 				DFAC643117659539004CD02F /* happyEmoticon@2x.png */,
+				DF556FD81785AE72003B651C /* TDT Custom Font.ttf */,
+				DF28460E1779D57800D54678 /* TDTEmoFull.ttf */,
 				DF10EA8C175DFF5D004BAE2D /* Default@2x.png */,
 				DF10EA8E175DFF5D004BAE2D /* Default-568h@2x.png */,
 				DF6D94E5175F162800AA04A6 /* chat-bubble-incoming@2x.png */,
 				DF6D94E6175F162800AA04A6 /* chat-bubble-outgoing@2x.png */,
-				DFAC64491765D771004CD02F /* List1.plist */,
+				DFBFA9A6177C5789004EDAE4 /* chat-bubble-incoming-highlighted.png */,
+				DFBFA9A7177C5789004EDAE4 /* chat-bubble-incoming-highlighted@2x.png */,
+				DFBFA9A8177C5789004EDAE4 /* chat-bubble-outgoing-highlighted.png */,
+				DFBFA9A9177C5789004EDAE4 /* chat-bubble-outgoing-highlighted@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -329,12 +394,48 @@
 				DF6D9508175F626700AA04A6 /* Chat Bubble with Avatars and Text */,
 				DF6D951E176068A200AA04A6 /* Text Implementations */,
 				DFAC6439176598F4004CD02F /* Custom Emoticons */,
+				DF2846011779982900D54678 /* Custom Font */,
 				DFAC642D17659346004CD02F /* TDTRoughWorkVC.h */,
 				DFAC642E17659346004CD02F /* TDTRoughWorkVC.m */,
 				DFAC643F1765ACF7004CD02F /* TDTCTView.h */,
 				DFAC64401765ACF7004CD02F /* TDTCTView.m */,
+				DFD46567177AA7B000DB27F0 /* TDTCompleteChatTableVC.h */,
+				DFD46568177AA7B000DB27F0 /* TDTCompleteChatTableVC.m */,
+				DFD46578177B095700DB27F0 /* TDTSentMessageCustomView.h */,
+				DFD46579177B095700DB27F0 /* TDTSentMessageCustomView.m */,
+				DFD4657B177B32B900DB27F0 /* TDTReceivedMessageCustomView.h */,
+				DFD4657C177B32B900DB27F0 /* TDTReceivedMessageCustomView.m */,
+				DFD46573177AAB0000DB27F0 /* TDTFullDataObject.h */,
+				DFD46574177AAB0000DB27F0 /* TDTFullDataObject.m */,
+				DFBFA99A177C4B3E004EDAE4 /* TDTCellData.h */,
+				DFBFA99B177C4B3E004EDAE4 /* TDTCellData.m */,
 			);
 			name = Source;
+			sourceTree = "<group>";
+		};
+		DF2845F617796AF000D54678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2845FA17796AF100D54678 /* libOHAttributedLabel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2846011779982900D54678 /* Custom Font */ = {
+			isa = PBXGroup;
+			children = (
+				DF28460517799CB400D54678 /* TDTAttrStrAndSizeData.h */,
+				DF28460617799CB500D54678 /* TDTAttrStrAndSizeData.m */,
+				DF2846021779995400D54678 /* TDTCustomFontImplementationsVC.h */,
+				DF2846031779995500D54678 /* TDTCustomFontImplementationsVC.m */,
+				DF2845FE1779981E00D54678 /* TDTOHAttributedLabelMethodVC.h */,
+				DF2845FF1779982000D54678 /* TDTOHAttributedLabelMethodVC.m */,
+				DF2846081779BBF700D54678 /* TDTNSAttributedStringMethodVC.h */,
+				DF2846091779BBF700D54678 /* TDTNSAttributedStringMethodVC.m */,
+				DF28460B1779BF6800D54678 /* TDTDTCoreTextMethodVC.h */,
+				DF28460C1779BF6900D54678 /* TDTDTCoreTextMethodVC.m */,
+			);
+			name = "Custom Font";
 			sourceTree = "<group>";
 		};
 		DF57B5FB1766DAD8004337A6 /* Using WebViews */ = {
@@ -505,6 +606,10 @@
 					ProductGroup = DF57B7921766E479004337A6 /* Products */;
 					ProjectRef = DF57B7911766E479004337A6 /* DTCoreText.xcodeproj */;
 				},
+				{
+					ProductGroup = DF2845F617796AF000D54678 /* Products */;
+					ProjectRef = DF2845F517796AF000D54678 /* OHAttributedLabel.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -514,6 +619,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		DF2845FA17796AF100D54678 /* libOHAttributedLabel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOHAttributedLabel.a;
+			remoteRef = DF2845F917796AF100D54678 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		DF57B79E1766E47B004337A6 /* RTDemoApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -588,6 +700,14 @@
 				DFAC64441765D067004CD02F /* sadEmoticon.png in Resources */,
 				DFAC64451765D067004CD02F /* sadEmoticon@2x.png in Resources */,
 				DFAC644A1765D771004CD02F /* List1.plist in Resources */,
+				DF28460F1779D57900D54678 /* TDTEmoFull.ttf in Resources */,
+				DFD46577177AAE1200DB27F0 /* SmallMessageFile.plist in Resources */,
+				DFBFA9AA177C5789004EDAE4 /* chat-bubble-incoming-highlighted.png in Resources */,
+				DFBFA9AB177C5789004EDAE4 /* chat-bubble-incoming-highlighted@2x.png in Resources */,
+				DFBFA9AC177C5789004EDAE4 /* chat-bubble-outgoing-highlighted.png in Resources */,
+				DFBFA9AD177C5789004EDAE4 /* chat-bubble-outgoing-highlighted@2x.png in Resources */,
+				DF4CB0061782CB86002CF1CE /* TDTEmoticonFont.ttf in Resources */,
+				DF556FD91785AE72003B651C /* TDT Custom Font.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +751,16 @@
 				DFAC64411765ACF8004CD02F /* TDTCTView.m in Sources */,
 				DFAC64481765D38D004CD02F /* TDTWebViewData.m in Sources */,
 				DF57B5FF1766DCA5004337A6 /* TDTDTAttributedTextViewVC.m in Sources */,
+				DF2846001779982200D54678 /* TDTOHAttributedLabelMethodVC.m in Sources */,
+				DF2846041779995500D54678 /* TDTCustomFontImplementationsVC.m in Sources */,
+				DF28460717799CB500D54678 /* TDTAttrStrAndSizeData.m in Sources */,
+				DF28460A1779BBF800D54678 /* TDTNSAttributedStringMethodVC.m in Sources */,
+				DF28460D1779BF6A00D54678 /* TDTDTCoreTextMethodVC.m in Sources */,
+				DFD46569177AA7B000DB27F0 /* TDTCompleteChatTableVC.m in Sources */,
+				DFD46575177AAB0000DB27F0 /* TDTFullDataObject.m in Sources */,
+				DFD4657A177B095800DB27F0 /* TDTSentMessageCustomView.m in Sources */,
+				DFD4657D177B32BA00DB27F0 /* TDTReceivedMessageCustomView.m in Sources */,
+				DFBFA99C177C4B3E004EDAE4 /* TDTCellData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,7 +848,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatMessageExperiments/ChatMessageExperiments-Prefix.pch";
 				INFOPLIST_FILE = "ChatMessageExperiments/ChatMessageExperiments-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ChatMessageExperiments\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/OHAttributedLabel-gtnevwlxmyegbycmkyjkloljdgye/Build/Products/Debug-iphoneos\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "External/DTCoreText/Core/**";
@@ -732,7 +868,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatMessageExperiments/ChatMessageExperiments-Prefix.pch";
 				INFOPLIST_FILE = "ChatMessageExperiments/ChatMessageExperiments-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ChatMessageExperiments\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/OHAttributedLabel-gtnevwlxmyegbycmkyjkloljdgye/Build/Products/Debug-iphoneos\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "External/DTCoreText/Core/**";

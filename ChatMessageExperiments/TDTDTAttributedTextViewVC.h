@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface TDTDTAttributedTextViewVC : UITableViewController
+#import "TDTSkippedFrameCounter.h"
+@interface TDTDTAttributedTextViewVC : UITableViewController <TDTskippedFrameCounterProtocol>
 @property (nonatomic, weak) NSMutableArray *dataArray;
 @property (nonatomic, weak) NSMutableArray *attributedStringArray;
 @end
